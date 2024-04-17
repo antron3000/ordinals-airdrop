@@ -17,17 +17,23 @@ document.addEventListener("DOMContentLoaded", async () => {
       img.style.maxHeight = "100%"; // Set max height to 100%
       img.style.objectFit = "contain"; // Maintain aspect ratio and fit inside container
       container.appendChild(img);
+      return true; // Indicate successful image loading
     } catch (error) {
       console.error("Error loading layer:", error);
+      return false; // Indicate failed image loading
     }
   }
 
-  await loadImage(
-    "462ffe3f5b1c18940921888d819d09175ee9d55fe473f2d291e798f5d011ca6ai0",
-    imageContainer
-  );
-  await loadImage(
+  const loaded = await loadImage(
     "4b5adfba6c81c60bfda89ad749ea9b78132eedcaac0e1d43ab4db9ced45697e6i0",
     imageContainer
   );
+
+  // If the second image fails to load, then load the first one
+  if (!loaded) {
+    await loadImage(
+      "462ffe3f5b1c18940921888d819d09175ee9d55fe473f2d291e798f5d011ca6ai0",
+      imageContainer
+    );
+  }
 });
