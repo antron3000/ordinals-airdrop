@@ -1,0 +1,16 @@
+# example batch file
+
+# inscription modes:
+# - `same-sat`: inscribe on the same sat
+# - `satpoints`: inscribe on the first sat of specified satpoint's output
+# - `separate-outputs`: inscribe on separate postage-sized outputs
+# - `shared-output`: inscribe on a single output separated by postage
+mode: separate-outputs
+postage: 12345
+inscriptions:
+    delegate: 762d50ecf0609d49ad086ae7c3666b59d87b0bd9255a762d60c253b80f1029d2i0
+    destination: bcrt1ps6a5lrf8f7mz3jpmzly6fvpkjkvl5e7sylans0lf93adce8mr32q7c8qq3
+    metadata:
+      title: Title of the hero
+
+
