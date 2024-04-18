@@ -21,11 +21,11 @@ postage: 12345
 
 inscriptions:
   # path to inscription content
-- file: wizard.jpg
+- file: a.txt
   # inscription to delegate content to (optional)
-  delegate: 1d2ad3205eab67dd8761c017c8bfae040564caf69444cddd8f63e4bf485bccc8i0
+  delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
   # destination (optional, if no destination is specified a new wallet change address will be used)
-  destination: bcrt1ps6a5lrf8f7mz3jpmzly6fvpkjkvl5e7sylans0lf93adce8mr32q7c8qq3
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
   # inscription metadata (optional)
   metadata:
     title: Delicious Mangos
@@ -38,8 +38,117 @@ inscriptions:
 
 
 
-- file: regtest.txt
-  destination: bcrt1ps6a5lrf8f7mz3jpmzly6fvpkjkvl5e7sylans0lf93adce8mr32q7c8qq3
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+  metadata:
+    author: Satoshi Nakamoto
+
+
+- file: a.txt
+  destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
   metadata:
     author: Satoshi Nakamoto
 

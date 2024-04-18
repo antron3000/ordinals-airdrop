@@ -1,0 +1,33 @@
+const { exec } = require('child_process');
+const fs = require('fs');
+
+// Define the base command and configuration
+const baseCmd = `ord --testnet --index ~/.local/share/ord/testnet3/index.redb --cookie-file ~/.bitcoin/testnet3/.cookie`;
+const imageFile = '0.png'; // Name of your image file
+const utxo = '2e00b1cbd377956710b5a2ccd687d24a2eaaea9dbc3313540e6777e1ba3d8107:0'; // UTXO to use
+const jsonOutputFile = '0.json'; // Output file for the JSON
+
+// Command to inscribe an image
+const inscribeCmd = `${baseCmd} --ignore-descriptors wallet inscribe --file ${imageFile} --fee-rate 100 --coin-control --utxo ${utxo} --no-broadcast`;
+
+// Execute the inscribe command
+exec(inscribeCmd, (error, stdout, stderr) => {
+    if (error) {
+        console.error(`Error: ${error.message}`);
+        return;
+    }
+    if (stderr) {
+        console.error(`Stderr: ${stderr}`);
+        return;
+    }
+    
+    // Save output to JSON file
+    fs.writeFile(jsonOutputFile, stdout, (err) => {
+        if (err) {
+            console.error(`Failed to write to file ${jsonOutputFile}: ${err}`);
+        } else {
+            console.log(`Output saved to ${jsonOutputFile}`);
+        }
+    });
+});
+

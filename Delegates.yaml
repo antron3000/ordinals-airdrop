@@ -1,58 +1,28 @@
-This is the delegate example
-The delegation.txt file it's just an empty file. 0KB. Delefate is the inscription you want to point to
-
---------------------------------------------
-
 mode: separate-outputs
-parent: 6b5a0edce1b73634ebba9ebe7d926dfc41c77143b1abe9e8b68e0eafbd07bc6ci0
 postage: 333
 inscriptions:
-  
-file: C:\TheRuneGuardians\Delegation.txt
-  delegate: 7c486505d2d5156cc1ce3cc3cb40dbb3dbea14234fd2ad9454660c4f2bc19a3ci0
-  destination: bc1p0fuhqdxvcykru6vtj8hgalzrkvujfur8xp2a5adkn8ty3fmt0zpsuujpue
-
-  
-file: C:\TheRuneGuardians\Delegation.txt
-  delegate: 7c486505d2d5156cc1ce3cc3cb40dbb3dbea14234fd2ad9454660c4f2bc19a3ci0
-  destination: bc1p0fumjswvxc4m86r8d2r4vg6qpk30jy0ws5em6g0zppml6mg70s5qktt94r
-
-  
-file: C:\TheRuneGuardians\Delegation.txt
-  delegate: 7c486505d2d5156cc1ce3cc3cb40dbb3dbea14234fd2ad9454660c4f2bc19a3ci0
-  destination: bc1p0fv9j0thrp4cgams7d26lya3qn75n25c8c9wjreqsxe87ppqy3xq25nsxf
-
-  
-file: C:\TheRuneGuardians\Delegation.txt
-  delegate: 7c486505d2d5156cc1ce3cc3cb40dbb3dbea14234fd2ad9454660c4f2bc19a3ci0
-  destination: bc1p0fvxmjpppg49dusn8pcdww035lmd88wtrgvw33s6w5hhtxd2qzsquuhfez
-
-  
-file: C:\TheRuneGuardians\Delegation.txt
-  delegate: 7c486505d2d5156cc1ce3cc3cb40dbb3dbea14234fd2ad9454660c4f2bc19a3ci0
-  destination: bc1p0fw739mxwcxq9phvdf546uvf34l3gvzzuqyk9g4s5ymwx5zj6dlqhgdmfx
-
-  
-file: C:\TheRuneGuardians\Delegation.txt
-  delegate: 7c486505d2d5156cc1ce3cc3cb40dbb3dbea14234fd2ad9454660c4f2bc19a3ci0
-  destination: bc1p0fwdaeaujppuwasmhffv66er3ptee7v8q7hzgzua34p5hdcvaa2sjj29sc
-
-  
-file: C:\TheRuneGuardians\Delegation.txt
-  delegate: 7c486505d2d5156cc1ce3cc3cb40dbb3dbea14234fd2ad9454660c4f2bc19a3ci0
-  destination: bc1p0fyypvgedzqe2mvu9yhvkpmlnmpt3gdmh393c87ekv7tln2fuuysj9kv09
-
-  
-file: C:\TheRuneGuardians\Delegation.txt
-  delegate: 7c486505d2d5156cc1ce3cc3cb40dbb3dbea14234fd2ad9454660c4f2bc19a3ci0
-  destination: bc1p0fz6j7rfzgvjqvrcuaz5723m82p349v9237k3uc49krckv8qlg3qvrurq2
-
-  
-file: C:\TheRuneGuardians\Delegation.txt
-  delegate: 7c486505d2d5156cc1ce3cc3cb40dbb3dbea14234fd2ad9454660c4f2bc19a3ci0
-  destination: bc1p0g270sjz0fvrk0t0kj20eyqx9pdccqfzxey3kx056j0v8fxrtjts8hte6e
-
-  
-file: C:\TheRuneGuardians\Delegation.txt
-  delegate: 7c486505d2d5156cc1ce3cc3cb40dbb3dbea14234fd2ad9454660c4f2bc19a3ci0
-  destination: bc1p0g2w7uj20h65vmfutyx4gpzrtc0xurwn34qtznd7alcw0t0xfdmsnjhhzh
+  -
+    file: a.txt
+      delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
+      destination: bc1p0fuhqdxvcykru6vtj8hgalzrkvujfur8xp2a5adkn8ty3fmt0zpsuujpue
+    file: a.txt
+      delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
+      destination: bc1p0fumjswvxc4m86r8d2r4vg6qpk30jy0ws5em6g0zppml6mg70s5qktt94r
+    file: a.txt
+      delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
+      destination: bc1p0fuhqdxvcykru6vtj8hgalzrkvujfur8xp2a5adkn8ty3fmt0zpsuujpue
+    file: a.txt
+      delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
+      destination: bc1p0fumjswvxc4m86r8d2r4vg6qpk30jy0ws5em6g0zppml6mg70s5qktt94r
+    file: a.txt
+      delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
+      destination: bc1p0fuhqdxvcykru6vtj8hgalzrkvujfur8xp2a5adkn8ty3fmt0zpsuujpue
+    file: a.txt
+      delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
+      destination: bc1p0fumjswvxc4m86r8d2r4vg6qpk30jy0ws5em6g0zppml6mg70s5qktt94r
+    file: a.txt
+      delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
+      destination: bc1p0fuhqdxvcykru6vtj8hgalzrkvujfur8xp2a5adkn8ty3fmt0zpsuujpue
+    file: a.txt
+      delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
+      destination: bc1p0fumjswvxc4m86r8d2r4vg6qpk30jy0ws5em6g0zppml6mg70s5qktt94r

@@ -8,6 +8,7 @@
 mode: separate-outputs
 postage: 12345
 inscriptions:
+  -
     delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
     destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
     metadata:
