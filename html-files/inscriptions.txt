@@ -1,0 +1,265 @@
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet inscribe --file 0.html --fee-rate 99
+{
+  "commit": "f68e67c0271babfaebba6c0416e35a5c017798e55d9399fc5c7d75db65c1338e",
+  "commit_psbt": null,
+  "inscriptions": [
+    {
+      "destination": "bc1p5y80ppd4nwd6jc6nz7cm7368x3psjkzrhmktwcr67qdx0c38rhcsw7smry",
+      "id": "e087ed52d418c2b16db3a033bb8dd79260019ba14c55d6e7e9e1c2a34cd591cbi0",
+      "location": "e087ed52d418c2b16db3a033bb8dd79260019ba14c55d6e7e9e1c2a34cd591cb:0:0"
+    }
+  ],
+  "parent": null,
+  "reveal": "e087ed52d418c2b16db3a033bb8dd79260019ba14c55d6e7e9e1c2a34cd591cb",
+  "reveal_broadcast": true,
+  "reveal_psbt": null,
+  "rune": null,
+  "total_fees": 31383
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet inscribe --file 1.html --fee-rate 99
+{
+  "commit": "3a3d719f8278ee972fb422c4043ac3e0e4a5ba215020b938c1a3815cedfa2348",
+  "commit_psbt": null,
+  "inscriptions": [
+    {
+      "destination": "bc1ph2dzscdkykc9en0u32an8r67jm8ewgj9s0099fg9k8f8etffl2lst2prxw",
+      "id": "37dee2b7ad0caef9f640e4399a4ed9e507ab5df4c0ced6d441fb66c97f242e9di0",
+      "location": "37dee2b7ad0caef9f640e4399a4ed9e507ab5df4c0ced6d441fb66c97f242e9d:0:0"
+    }
+  ],
+  "parent": null,
+  "reveal": "37dee2b7ad0caef9f640e4399a4ed9e507ab5df4c0ced6d441fb66c97f242e9d",
+  "reveal_broadcast": true,
+  "reveal_psbt": null,
+  "rune": null,
+  "total_fees": 31383
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet inscribe --file 2.html --fee-rate 99
+{
+  "commit": "c050fae405be7ced14477072a2849e86d435962233b6c2e625ed5b6fb2133be9",
+  "commit_psbt": null,
+  "inscriptions": [
+    {
+      "destination": "bc1pvj66l9sex98qkh5ydncv6axkv7498vpd0m4jz52tfmx3nrg8weesc40sra",
+      "id": "005ab52bf3dc2986f7b1c735e78a16df49e9fc7ca3ff96b004965f71f2a7a487i0",
+      "location": "005ab52bf3dc2986f7b1c735e78a16df49e9fc7ca3ff96b004965f71f2a7a487:0:0"
+    }
+  ],
+  "parent": null,
+  "reveal": "005ab52bf3dc2986f7b1c735e78a16df49e9fc7ca3ff96b004965f71f2a7a487",
+  "reveal_broadcast": true,
+  "reveal_psbt": null,
+  "rune": null,
+  "total_fees": 31383
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet inscribe --file 3.html --fee-rate 99
+{
+  "commit": "2d57d944531fc159556bd36f5bb7e3d98b88c46b986b626ffa12d260966dc1ab",
+  "commit_psbt": null,
+  "inscriptions": [
+    {
+      "destination": "bc1p25mw5dfmm6d2wfg3s87rpv2r48m69j9z3nkf089hpmy3f76gup5s5aavsu",
+      "id": "97b18b29cffc7e077ab2a147cfcd0e53e81e6abd3f69d039a279f999afb18fd8i0",
+      "location": "97b18b29cffc7e077ab2a147cfcd0e53e81e6abd3f69d039a279f999afb18fd8:0:0"
+    }
+  ],
+  "parent": null,
+  "reveal": "97b18b29cffc7e077ab2a147cfcd0e53e81e6abd3f69d039a279f999afb18fd8",
+  "reveal_broadcast": true,
+  "reveal_psbt": null,
+  "rune": null,
+  "total_fees": 31383
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet inscribe --file 4.html --fee-rate 99
+{
+  "commit": "fcacd95998d49b7463bc56e61e8722586cc8609e78a8321e18345b34228cfdce",
+  "commit_psbt": null,
+  "inscriptions": [
+    {
+      "destination": "bc1pp84e77f3kguna97qldl29gnknjkq6cg6ant965lp59vdeuc5dg8s6z6l9f",
+      "id": "b412333a663b2c2c3593c2fb14c9b7d645e033dfe8a9b6b62e9aa1004b51ebaei0",
+      "location": "b412333a663b2c2c3593c2fb14c9b7d645e033dfe8a9b6b62e9aa1004b51ebae:0:0"
+    }
+  ],
+  "parent": null,
+  "reveal": "b412333a663b2c2c3593c2fb14c9b7d645e033dfe8a9b6b62e9aa1004b51ebae",
+  "reveal_broadcast": true,
+  "reveal_psbt": null,
+  "rune": null,
+  "total_fees": 31383
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet inscribe --file 5.html --fee-rate 99
+{
+  "commit": "407f58ee32a7c75029914475d1330d4d9e63234b7dae17e9807d4f7d27360e2a",
+  "commit_psbt": null,
+  "inscriptions": [
+    {
+      "destination": "bc1p6wxepapexl78zqurg7lgwrkzpvcnm7frl6j2mlksvpjhykjfa59qkjuwas",
+      "id": "845f7c12b77f04a7b3bd4d93eb3cb640ee620a1f067703e4647238dbdf9c0fcai0",
+      "location": "845f7c12b77f04a7b3bd4d93eb3cb640ee620a1f067703e4647238dbdf9c0fca:0:0"
+    }
+  ],
+  "parent": null,
+  "reveal": "845f7c12b77f04a7b3bd4d93eb3cb640ee620a1f067703e4647238dbdf9c0fca",
+  "reveal_broadcast": true,
+  "reveal_psbt": null,
+  "rune": null,
+  "total_fees": 31383
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet inscribe --file 6.html --fee-rate 99
+{
+  "commit": "c5347d4bbaf4c468c0e77aef4d9155133e71d7f4a9ffb93c1b00f35f1214e897",
+  "commit_psbt": null,
+  "inscriptions": [
+    {
+      "destination": "bc1pxmra0ed8vpnt39mj6eda70mwxsxuxygum40gsw4qnw3clwfgan3q5qz0e5",
+      "id": "e621e335dbb3ad8b262912a5d6336c4c5e7d50b3d95c815b09e82cb2fb9558ddi0",
+      "location": "e621e335dbb3ad8b262912a5d6336c4c5e7d50b3d95c815b09e82cb2fb9558dd:0:0"
+    }
+  ],
+  "parent": null,
+  "reveal": "e621e335dbb3ad8b262912a5d6336c4c5e7d50b3d95c815b09e82cb2fb9558dd",
+  "reveal_broadcast": true,
+  "reveal_psbt": null,
+  "rune": null,
+  "total_fees": 31383
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet cardinals
+[]
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet cardinals
+[]
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet cardinals
+[]
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet cardinals
+[]
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet cardinals
+[]
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet cardinals
+[]
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord index update
+error: failed to open index: Database already open. Cannot acquire lock.
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet cardinals
+[
+  {
+    "output": "86813680d13386ede4cab9b6e0338670c7cabc192a1233bd0b28ee561e36fe04:1",
+    "amount": 37035
+  },
+  {
+    "output": "407f58ee32a7c75029914475d1330d4d9e63234b7dae17e9807d4f7d27360e2a:1",
+    "amount": 58617
+  },
+  {
+    "output": "e23c274fbddda7fee6f61b4e0baf329e8c1e2fdb730f780983db90e45114eb33:1",
+    "amount": 37035
+  },
+  {
+    "output": "3a3d719f8278ee972fb422c4043ac3e0e4a5ba215020b938c1a3815cedfa2348:1",
+    "amount": 4428137
+  },
+  {
+    "output": "c50ec059e422a9ce06512bf23ac10edae243e2808362a6ee8bda65886ea8a858:1",
+    "amount": 37035
+  },
+  {
+    "output": "2e67e2b96bf9a5a152df660b00787e81c541b623580ada7dbd8e589748ce8566:1",
+    "amount": 37035
+  },
+  {
+    "output": "168d09132fe0e80ba0143a743411be1054265189db7bd8bc3646deca14c1b373:1",
+    "amount": 37035
+  },
+  {
+    "output": "f68e67c0271babfaebba6c0416e35a5c017798e55d9399fc5c7d75db65c1338e:1",
+    "amount": 58617
+  },
+  {
+    "output": "c5347d4bbaf4c468c0e77aef4d9155133e71d7f4a9ffb93c1b00f35f1214e897:1",
+    "amount": 58617
+  },
+  {
+    "output": "90bc3a357eee8f9a69179a81eb927eb1975331e24d8845ad3a0835c946653ba7:1",
+    "amount": 37035
+  },
+  {
+    "output": "2d57d944531fc159556bd36f5bb7e3d98b88c46b986b626ffa12d260966dc1ab:1",
+    "amount": 58617
+  },
+  {
+    "output": "fcacd95998d49b7463bc56e61e8722586cc8609e78a8321e18345b34228cfdce:1",
+    "amount": 58617
+  },
+  {
+    "output": "3977833a74f23d3ba46e826919ef9cb7c94fdc275fa3e7bf771b9c72434ee8d8:1",
+    "amount": 5886817
+  },
+  {
+    "output": "3aee5b00693c74fd1038e7cd34b3de4c916aeb31eefd3ec2d9203f70326dacdf:1",
+    "amount": 37035
+  },
+  {
+    "output": "bbf4bf93c87b4250d03beab5ec5e86fea6612bbdebc72ae15d9f0b874f0fc7e2:1",
+    "amount": 37035
+  },
+  {
+    "output": "c050fae405be7ced14477072a2849e86d435962233b6c2e625ed5b6fb2133be9:1",
+    "amount": 58617
+  },
+  {
+    "output": "7a9fe06dfdc3484b5790af9f4fe24a95947b0fd9aaaa617c035822de108ec6ef:1",
+    "amount": 37035
+  }
+]
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet inscribe --file 7.html --fee-rate 99
+{
+  "commit": "4129720c14f6210a15a2c277d01eabd900aa87d8085014b87e10ef3f431f5cf1",
+  "commit_psbt": null,
+  "inscriptions": [
+    {
+      "destination": "bc1p45xqaknxlk0lse4j7eygf5la22hathjgjsglgp24mr4qutsmxjeqwzfasz",
+      "id": "ad4a79f718433bd482d2886dbdafffcefd303b924a3ca6560844abbb84c463f4i0",
+      "location": "ad4a79f718433bd482d2886dbdafffcefd303b924a3ca6560844abbb84c463f4:0:0"
+    }
+  ],
+  "parent": null,
+  "reveal": "ad4a79f718433bd482d2886dbdafffcefd303b924a3ca6560844abbb84c463f4",
+  "reveal_broadcast": true,
+  "reveal_psbt": null,
+  "rune": null,
+  "total_fees": 37125
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet inscribe --file 8.html --fee-rate 99
+{
+  "commit": "315791b0e708d31fe79a4808a6f2b3a577b93292bddee2c527f464fa1cd47623",
+  "commit_psbt": null,
+  "inscriptions": [
+    {
+      "destination": "bc1purzwrqejcq3eg65tkhvwxnldylxga9rqzmvc3alvzmspdqawr8csjyczpg",
+      "id": "78a77a5588e2c5b70aead03e2a62c9336803a8f6587324a9700f363d145f4727i0",
+      "location": "78a77a5588e2c5b70aead03e2a62c9336803a8f6587324a9700f363d145f4727:0:0"
+    }
+  ],
+  "parent": null,
+  "reveal": "78a77a5588e2c5b70aead03e2a62c9336803a8f6587324a9700f363d145f4727",
+  "reveal_broadcast": true,
+  "reveal_psbt": null,
+  "rune": null,
+  "total_fees": 31383
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/html-files$ ord wallet inscribe --file 9.html --fee-rate 99
+{
+  "commit": "58a0077ee197e5187397027e519b9e504a5b30e5d6d4b7997b5d3a07541c4de4",
+  "commit_psbt": null,
+  "inscriptions": [
+    {
+      "destination": "bc1p22mrfa3427r8dkcyspn02wn25vwz7mw874j3z4xxf4aw5dflr7rqhmm72r",
+      "id": "c06f48fbf92ac9c054dc8e4d674f35eb00696e9acda65333935090850087b1c9i0",
+      "location": "c06f48fbf92ac9c054dc8e4d674f35eb00696e9acda65333935090850087b1c9:0:0"
+    }
+  ],
+  "parent": null,
+  "reveal": "c06f48fbf92ac9c054dc8e4d674f35eb00696e9acda65333935090850087b1c9",
+  "reveal_broadcast": true,
+  "reveal_psbt": null,
+  "rune": null,
+  "total_fees": 31383
+}

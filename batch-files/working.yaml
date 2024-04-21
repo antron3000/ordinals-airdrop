@@ -1,0 +1,41 @@
+# example batch file
+
+# inscription modes:
+# - `same-sat`: inscribe on the same sat
+# - `satpoints`: inscribe on the first sat of specified satpoint's output
+# - `separate-outputs`: inscribe on separate postage-sized outputs
+# - `shared-output`: inscribe on a single output separated by postage
+mode: separate-outputs
+
+parent: 2d26d389f5c6500780b64af7f41a4560c619fb5d5870e7f3df927fad80b93ef6i0
+
+# postage for each inscription:
+postage: 333
+
+# sat to inscribe on, can only be used with `same-sat`:
+# sat: 5000000000
+
+# rune to etch (optional)
+
+inscriptions:
+
+- file: a.txt
+  delegate: dffc46368e311d8efcc3c5b4ca5a3569a1e64b18fcc0ef04db0a8ab1d22a1e8di0
+  destination: bc1pqvxe8k9hkf8h2a53j2h5y4pqsm68t7s0u6gp9v8ghnrfl4dftj8qpsw2ks
+  metadata:
+    name: The Simplifier
+
+- file: a.txt
+  delegate: dffc46368e311d8efcc3c5b4ca5a3569a1e64b18fcc0ef04db0a8ab1d22a1e8di0
+  destination: bc1pqvxe8k9hkf8h2a53j2h5y4pqsm68t7s0u6gp9v8ghnrfl4dftj8qpsw2ks
+  metadata:
+    name: The Simplifier
+ 
+- file: a.txt
+  delegate: dffc46368e311d8efcc3c5b4ca5a3569a1e64b18fcc0ef04db0a8ab1d22a1e8di0
+  destination: bc1pqvxe8k9hkf8h2a53j2h5y4pqsm68t7s0u6gp9v8ghnrfl4dftj8qpsw2ks
+  metadata:
+    name: The Simplifier
+
+
+

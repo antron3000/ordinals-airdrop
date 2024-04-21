@@ -1,0 +1,121 @@
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/js-files$ ord wallet inscribe --fee-rate 70 --file 0.js
+{
+  "commit": "d931cd341c608aabc97c5ac9cdd86dc9a0422ff4f769b4a3e69693aa9100596d",
+  "inscriptions": [
+    {
+      "id": "963020b9b24d226dfab41a57ed6f3795773eb6b69ffbec5516e1252e608d757ai0",
+      "location": "963020b9b24d226dfab41a57ed6f3795773eb6b69ffbec5516e1252e608d757a:0:0"
+    }
+  ],
+  "reveal": "963020b9b24d226dfab41a57ed6f3795773eb6b69ffbec5516e1252e608d757a",
+  "total_fees": 37450
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/js-files$ ord wallet inscribe --fee-rate 70 --file 1.js
+{
+  "commit": "a5c85dd08da6306b2925c538ed06817455d1da2ada6f62413d44f8b89a0c6d30",
+  "inscriptions": [
+    {
+      "id": "5a60116aff1fa4d7cb8bce8faeeaf2c03d0daf9574c2b5023ad62707dad0ba06i0",
+      "location": "5a60116aff1fa4d7cb8bce8faeeaf2c03d0daf9574c2b5023ad62707dad0ba06:0:0"
+    }
+  ],
+  "reveal": "5a60116aff1fa4d7cb8bce8faeeaf2c03d0daf9574c2b5023ad62707dad0ba06",
+  "total_fees": 37450
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/js-files$ ord wallet inscribe --fee-rate 70 --file 2.js
+{
+  "commit": "2cc761b8339ba24e7a0d64596f3419c18b4f5bc7d47d03c64effe39bef942f05",
+  "inscriptions": [
+    {
+      "id": "fbfd087d1cb7a42cffa602abcd6ae76bffeeb5b96c7359c6616a3b02c34586dbi0",
+      "location": "fbfd087d1cb7a42cffa602abcd6ae76bffeeb5b96c7359c6616a3b02c34586db:0:0"
+    }
+  ],
+  "reveal": "fbfd087d1cb7a42cffa602abcd6ae76bffeeb5b96c7359c6616a3b02c34586db",
+  "total_fees": 37450
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/js-files$ ord wallet inscribe --fee-rate 70 --file 3.js
+{
+  "commit": "eb27e8c0b66250f142a00b2fa53ee1931489a1cafd500eac897778828ae263b8",
+  "inscriptions": [
+    {
+      "id": "17d4611042eb0181924208e12e40e3e69cea47f4416c34f2dbaf9371b17bb6dbi0",
+      "location": "17d4611042eb0181924208e12e40e3e69cea47f4416c34f2dbaf9371b17bb6db:0:0"
+    }
+  ],
+  "reveal": "17d4611042eb0181924208e12e40e3e69cea47f4416c34f2dbaf9371b17bb6db",
+  "total_fees": 37450
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/js-files$ ord wallet inscribe --fee-rate 70 --file 4.js
+{
+  "commit": "553bc5390471abe9577477eabc109a65cb34da00c5bc844bf71c477a89b6213b",
+  "inscriptions": [
+    {
+      "id": "4c9c0d4de6c232fe968441274ea60ea61458b51b6bad284e1ed249fda7f8820ei0",
+      "location": "4c9c0d4de6c232fe968441274ea60ea61458b51b6bad284e1ed249fda7f8820e:0:0"
+    }
+  ],
+  "reveal": "4c9c0d4de6c232fe968441274ea60ea61458b51b6bad284e1ed249fda7f8820e",
+  "total_fees": 37450
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/js-files$ ord wallet inscribe --fee-rate 70 --file 5.js
+{
+  "commit": "9452a9a26e302605da2f9cb41287e8598f2ddf697e719f422adfc42a9bb64acf",
+  "inscriptions": [
+    {
+      "id": "f26b33af5719f6024d6beb7a86745aadd13575c3f756bbe1b4c64c3880532c7ci0",
+      "location": "f26b33af5719f6024d6beb7a86745aadd13575c3f756bbe1b4c64c3880532c7c:0:0"
+    }
+  ],
+  "reveal": "f26b33af5719f6024d6beb7a86745aadd13575c3f756bbe1b4c64c3880532c7c",
+  "total_fees": 37450
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/js-files$ ord wallet inscribe --fee-rate 70 --file 6.js
+{
+  "commit": "459ef6f271dd2364062cd69f82b6962d4b1216d850a633ba11161bed9c1b191b",
+  "inscriptions": [
+    {
+      "id": "2a4c71cb65c01f4895f22326ce4e58a8ad1166460fa7a2378f6f2fe8f9d05cd1i0",
+      "location": "2a4c71cb65c01f4895f22326ce4e58a8ad1166460fa7a2378f6f2fe8f9d05cd1:0:0"
+    }
+  ],
+  "reveal": "2a4c71cb65c01f4895f22326ce4e58a8ad1166460fa7a2378f6f2fe8f9d05cd1",
+  "total_fees": 37450
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/js-files$ ord wallet inscribe --fee-rate 70 --file 7.js
+{
+  "commit": "d5cc6e43ad5e62f4fad3466aaf34c1279603234112d36afe1b4e98cb53b32f07",
+  "inscriptions": [
+    {
+      "id": "a54868f2c589b025719466574fe3a347f9e7c68183bf591ee7e84a1d62a1e272i0",
+      "location": "a54868f2c589b025719466574fe3a347f9e7c68183bf591ee7e84a1d62a1e272:0:0"
+    }
+  ],
+  "reveal": "a54868f2c589b025719466574fe3a347f9e7c68183bf591ee7e84a1d62a1e272",
+  "total_fees": 37450
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/js-files$ ord wallet inscribe --fee-rate 70 --file 8.js
+{
+  "commit": "bbb376210e43940a012faeca3fae4529fb2b2f3e361ba4acf137f332f35ef8fd",
+  "inscriptions": [
+    {
+      "id": "3a2ff42c3e0c8ecdf0cbdef80242c9dceaa3e7569c673369fef069365b106b10i0",
+      "location": "3a2ff42c3e0c8ecdf0cbdef80242c9dceaa3e7569c673369fef069365b106b10:0:0"
+    }
+  ],
+  "reveal": "3a2ff42c3e0c8ecdf0cbdef80242c9dceaa3e7569c673369fef069365b106b10",
+  "total_fees": 37450
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/js-files$ ord wallet inscribe --fee-rate 70 --file 9.js
+{
+  "commit": "4fccd0d23c34a1f93874872f3f05228ef5139c128c71d0db1d193d2bfb36ac34",
+  "inscriptions": [
+    {
+      "id": "9ba9ec86e807f3b71a15efea5570df58f9079a8e132c8a4038bbc56a9dcc5263i0",
+      "location": "9ba9ec86e807f3b71a15efea5570df58f9079a8e132c8a4038bbc56a9dcc5263:0:0"
+    }
+  ],
+  "reveal": "9ba9ec86e807f3b71a15efea5570df58f9079a8e132c8a4038bbc56a9dcc5263",
+  "total_fees": 37450
+}
+node@node-HP-Laptop-14-fq1xxx:~/inscriptions/exoHeroes/ordinals-airdrop/js-files$ 

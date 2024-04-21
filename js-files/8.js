@@ -1,39 +1,18 @@
 document.addEventListener("DOMContentLoaded", async () => {
-    const imageContainer = document.createElement("div");
-    imageContainer.className = "image-container";
-    document.body.appendChild(imageContainer);
-  
-    async function loadImage(layerId, container) {
-      try {
-        const response = await fetch(`/content/${layerId}`);
-        if (!response.ok) {
-          throw new Error("Failed to fetch layer");
-        }
-        const blob = await response.blob();
-        const imgUrl = URL.createObjectURL(blob);
-        const img = document.createElement("img");
-        img.src = imgUrl;
-        img.style.maxWidth = "100%"; // Set max width to 100%
-        img.style.maxHeight = "100%"; // Set max height to 100%
-        img.style.objectFit = "contain"; // Maintain aspect ratio and fit inside container
-        container.appendChild(img);
-        return true; // Indicate successful image loading
-      } catch (error) {
-        console.error("Error loading layer:", error);
-        return false; // Indicate failed image loading
-      }
-    }
-  
-    const loaded = await loadImage(
-      "4b5adfba6c81c60bfda89ad749ea9b78132eedcaac0e1d43ab4db9ced45697e6i0",
-      imageContainer
-    );
-  
-    // If the second image fails to load, then load the first one
-    if (!loaded) {
-      await loadImage(
-        "462ffe3f5b1c18940921888d819d09175ee9d55fe473f2d291e798f5d011ca6ai0",
-        imageContainer
-      );
-    }
-  });
+  const imageContainer = document.createElement("div");
+  imageContainer.className = "image-container";
+  document.body.appendChild(imageContainer);
+
+async function loadImage(layerId, container) {
+try {const response = await fetch(`/content/${layerId}`);if (!response.ok) {throw new Error("Failed to fetch layer");}const blob = await response.blob();const imgUrl = URL.createObjectURL(blob);const img = document.createElement("img");img.src = imgUrl;img.style.maxWidth = "100%";img.style.maxHeight = "100%";img.style.objectFit = "contain";container.appendChild(img);return true;} catch (error) {console.error("Error loading layer:", error);return false;
+}}
+const loaded = await loadImage(
+  "ac60308aaf8a79bb19d038f7bcdb964b0c925db0548e4f4191efcbf4022ba913i0",
+  imageContainer
+);
+if (!loaded) {
+  await loadImage(
+    "9d71fc47daede70dde1dd4af7cdfffac18627f797d7542880ec6db2107ad62b6i0",
+    imageContainer
+  );
+}});

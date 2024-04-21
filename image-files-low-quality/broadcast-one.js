@@ -3,7 +3,7 @@ const fs = require('fs');
 
 // Define paths to wallet and JSON file
 const walletName = 'ord';
-const jsonFilePath = './1.json'; // Adjust the path as needed
+const jsonFilePath = './9.json'; // Adjust the path as needed
 
 // Function to execute shell commands
 function executeCommand(command) {

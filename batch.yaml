@@ -9,28 +9,28 @@ mode: separate-outputs
 postage: 12345
 inscriptions:
   -
-    delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
-    destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+    delegate: dffc46368e311d8efcc3c5b4ca5a3569a1e64b18fcc0ef04db0a8ab1d22a1e8di0
+    destination: bc1pqvxe8k9hkf8h2a53j2h5y4pqsm68t7s0u6gp9v8ghnrfl4dftj8qpsw2ks
     metadata:
       title: Title of the hero
-    delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
-    destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+    delegate: dffc46368e311d8efcc3c5b4ca5a3569a1e64b18fcc0ef04db0a8ab1d22a1e8di0
+    destination: bc1pqvxe8k9hkf8h2a53j2h5y4pqsm68t7s0u6gp9v8ghnrfl4dftj8qpsw2ks
     metadata:
       title: Title of the hero
-    delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
-    destination: bcrt1peeuhzdswz77s6esuh0jxyy6l0q4lme0e5kantanlwfwnxtwzhz0qj4mtk9
+    delegate: dffc46368e311d8efcc3c5b4ca5a3569a1e64b18fcc0ef04db0a8ab1d22a1e8di0
+    destination: bc1pqvxe8k9hkf8h2a53j2h5y4pqsm68t7s0u6gp9v8ghnrfl4dftj8qpsw2ks
     metadata:
       title: Title of the here
-    delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
-    destination: bcrt1pxsyff4vxcpuq3g2yhqm8p4fpq9q2vkjekzhz207nnufduatc4c6s4xdtv9
+    delegate: dffc46368e311d8efcc3c5b4ca5a3569a1e64b18fcc0ef04db0a8ab1d22a1e8di0
+    destination: bc1pqvxe8k9hkf8h2a53j2h5y4pqsm68t7s0u6gp9v8ghnrfl4dftj8qpsw2ks
     metadata:
       title: Title of the hero
-    delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
-    destination: bcrt1pxsyff4vxcpuq3g2yhqm8p4fpq9q2vkjekzhz207nnufduatc4c6s4xdtv9
+    delegate: dffc46368e311d8efcc3c5b4ca5a3569a1e64b18fcc0ef04db0a8ab1d22a1e8di0
+    destination: bc1pqvxe8k9hkf8h2a53j2h5y4pqsm68t7s0u6gp9v8ghnrfl4dftj8qpsw2ks
     metadata:
       title: Title of the hero
-    delegate: 0b6015f6d6a647f775991fe3bd47ac2ae4edac67d112f30894de393fe140f5b7i0
-    destination: bcrt1pxsyff4vxcpuq3g2yhqm8p4fpq9q2vkjekzhz207nnufduatc4c6s4xdtv9
+    delegate: dffc46368e311d8efcc3c5b4ca5a3569a1e64b18fcc0ef04db0a8ab1d22a1e8di0
+    destination: bc1pqvxe8k9hkf8h2a53j2h5y4pqsm68t7s0u6gp9v8ghnrfl4dftj8qpsw2ks
     metadata:
       title: Title of the hero
 

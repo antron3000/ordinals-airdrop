@@ -1,0 +1,3508 @@
+# example batch file
+
+# inscription modes:
+# - `same-sat`: inscribe on the same sat
+# - `satpoints`: inscribe on the first sat of specified satpoint's output
+# - `separate-outputs`: inscribe on separate postage-sized outputs
+# - `shared-output`: inscribe on a single output separated by postage
+mode: separate-outputs
+
+parent: 9d71fc47daede70dde1dd4af7cdfffac18627f797d7542880ec6db2107ad62b6i0
+
+# postage for each inscription:
+postage: 333
+
+inscriptions:
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pyvckf9f3cf5pve8k3mp4e90t59nscecghvaetx3gnznjk0qfakeq9p7gad
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pyvjqg848xehqqjf4ezlqgza0l0ddetxpzzsz7k9eu4d2xwrhkhrqjq709v
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pyw4l05avc0gzht3h29xcqvhjg8d4srvkqfjj5zjs9p4w53c4utsqwhzgln
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pywqxf7nkawwvm3zm9lyc3cdcy3taywfgywgc5r4ywd437gkp7jgqhdk25c
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pyxctzttczvsv27jwky5agjx89nnzr4v90jhph8ecj3smzrvk438qhzr6j0
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pyxjdnlglu5trcp5tnkfyplmydvwt7zntz02pxral8rkmhhyvm5jsf206fy
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pyy0fdjzg73c4ny6c564fvhp8z9q3wvl8n22yksycqw55qqqkgj3qdxxpl7
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pyy95hnz8gp0en66zgudzlae8u3mytlx5ln9tqa42hfa765quc8wq3strgj
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pyz23ssff4raj736yxdpfwpw5sqql9xkhr26nmwnkvq9mjujwkjaqgpm04d
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pyzm8aqyc6lw0yu8cr8a0su4ltqngxzljmjf4p2v3rss4psfnmypq9su5s0
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pyzushdvshdxugdp9a09ypwv3tmzfgc7lme6z4hwce8ylnra294zqa5clj4
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pz006hhaxhcx8hukkydyepum3wutqtfq24w2j5v73qrrqhf2yz96qlerwe5
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pz0umaeajs08amfxl2p53fa9c3jxvd4xqvj85jus8s55jvrsehdtqudlm55
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pz2wq8tx5e88wml30tspveylv6s6u4wfnjx2l4tkv4alh7u7lp5pqm34jk2
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pz33qlnw3rruwx8sfqwes9usy2lmfpyz3mntunt57qmfy8us8lrysvzss7e
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pz42kjk2ueynpk5tfhx4d2gseftggpwm7g002m0prmx6dhj0uq6rq3fpvyq
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pz53k87d95acq82z03u9yq6mgev36tx0mat36yzx977705vlyrjasfkar7r
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pz6k8xvt34hmm2m0jwmty22ts8683dywpdmmqwe5v9g59nff0l03qdg68u9
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pz6mlmmm9dacqcakfe5p00dvh00jsu5l8jq6n9tlkxdkls807a2asynuats
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pz6nel7gyjam03xtl5axsv55qcqnjx7erue0q2p47s7slr9kfm5qqjwefs2
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pz7g6q7m708eq8p2v27qcd46j7f0duwe80x46j8c8uwhn6haf4e3qzgq7lr
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pz9kezz6a3stjzgwgq2dl26nn9cws6exk7ea72wm7tc44ltdqdeys6lvkxw
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pzad3xte5dpkwx5ju950yflk0uhk968ltugf6dc2as7grxf6zhnls54c7tf
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pzadg6z47kngqx0jm60rwqeaj02dc9d375cp5lqheqklmhpfeejps63ewsf
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pzcu7c5pxg9ttfqvp5fah5dy5rzkq846v9zvjcpwtez36tnln49vqtguyrc
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pzcv6khk7kypk83jcfr63kg3l5fqucgmwuqaj49gnvqfcy7h8jdtskgl75h
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pzd04l8agyh04tde4clrtjnz9a35myfapw9sjew7732g5lv0d2xjqw98n84
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pzdgye6qn98pcwa06v3qqdumqxyuue9feahm0mladrnwarcv7m3dqa80y5r
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pzdheslewzndtrnkujfu025lurng2p8ey8sdx5pl9szw7yf4hlfcse5sgsn
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pzftmamkl0dyrrvznt6z80xxm9n4emf0vlaqns3vhm6e7xpnsqjxs3ve3xe
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pzg4y76kkzme8ex6ltsyj6w7p9veuznmq0sjgp7gs04uwr0sljhzsxwvk23
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pzg674jxskgf6dhqzluz6qy8hky54vxr8urt920zsxcacdkhfjtqqezwtsd
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pzgc7a3vvsql8e85svav2aewd2vhcrjklzmeene279ud8dzwskr3sw7hup7
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pzhfu6lrtj8y6ey6wzmapc8y3ha4zryersp235ugn9eeje6rd86rs5x7wum
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pzj9dy0wysj5fd6f4srul6xghg0k7ug2yxfj9m9h0pphu57r67uqsjmqzms
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pzk4lpptt75ujlu4wpvygllpulc0a0pmhwgynvmqagzuzquyanfxscstzfc
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pzkr55c9c77at0vp8crvz6uksgywge4kp5wmvew5swhzwegpuueequp5ruh
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pzl5yzcl7wdack4tgzl7c0de996096uu8kg059pemtjcmu3qvxumsl5xvmt
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pzm09t2gxusenxhkmmqugq4gw33750237ln73w7vgzng953vamkwqntkrzn
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pzn26276p64602la6jm3333k5t2nx436aktucgqpl5z58sgscj8fq952qk8
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pznplzvw2q8hzj4gph2a7999yxd6qreklvzyy9hs9pq5r49yvufkskxnewm
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pzqw3r4kwd4hncnyd7rx9gn0ysr5y5acyx7dwf2gtcjzv8tc3cepstz25p2
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pzr8y0geszqadf2vl0je0zd5xa8mfc02f380083wh2msrruz5pnmspz9v8y
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pzrc2unh6tdl7m36eujjtpt08lwhauyelynwdgetywxx00r82yyaszrvsp3
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pzrc78wn0a44s9a3rzgqx7ulcfuyc0ds9de3tuj60u6kfsuxz93cqzssn2k
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pzrjfnfhz52eld5wd3vlmsyg2u2p9wjrqrpftvwm074sy7zfh5f3qzkuz4q
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pzs28r5lnl28v3g90s6387cu9aeg7zwrrrlyycp4vvnr0zp24sfpqfrmjpy
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pzslasftgn6a65u6qdkvaxtn98z5fcz27yesuskc72pnm3ycac3zq4dd3zr
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pztfe9sjeyr8t8rh9xh5wlas2kdw4skdael9nx9sh8eqpk757lr6s9mwcx3
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pztgvg9vfhv24hsdsy75k4stcg3mgh5luj8w0y327r8m99ev8mzyqrmujzv
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pztpfykfy2kx9xvs6gc52yg7hpwgw05xxhfs6myhuteya432qj47qhqapdl
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pztymrepk43xxwheg47ghf9apmw546jud0cf657fyfnf45spmcuvqv7acd4
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pzx5hvqdqlj0ude8qkdyp2adh625rmpr3ddrnvp2q5ysaf8mhehgqrwmtfp
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pzxue4w06xakxnvg6ps74h886m2z5c03prddflyrn3y3tvhfyrsfstnph0l
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pzy70ktz0ecjv8a937jxtzf0zj64a72lwddal55r63s7mfkdn8c6szj9f3n
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pzyh563ey9fyva5ql8d7ja8azegnq93xghg57hlrakud4qtx8vj4sr7htww
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pzyryklua942fkpwccn872y5qt2288yzdrzxrpmuhz9gutht7r8aq239ds4
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pzzefyayl3xzv7pw8u4e0jsxzhcy9qn3cyuxdgchu4r96glg4n62s2muqdr
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1q03nvxpyhj39uzllu90v50fm0f9f0c3xcy7affl
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1q082uwgtufc4jys20hs5sw30r5rclruu7u0xw26
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1q0gv7a9y02eccckk0awva6yykrwqmwu5egnrawh
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1q0y888wfq9kjv7fzsh50c6n2hlh889gpwj5qvgg
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1q326893tuscxfft360p3a6646fqgqz5hwx9qv3j
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1q3k9wr7mrmcl337va9tjpj0znl3x2zwyxkjz2fj
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1q3wmqwwa0zwr9mr2w80rawv9z9d0xl4mqenqulg
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1q588w45x9w2a0tfddexedcunxpqvx3mez74derx
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1q5a56qw38h0v7mamvrl4wp9jv2y6qcstujhl5q3
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1q5g8wtuhq8rejdjj8a4sq2rg4ex9ns8yect3mmv
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1q5yg96f7fmyfqphnpr82gr9hgurx4w37dnmvgjx
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1q6aa2jwdw28n8ed36s7w5qf32hqxddvk78y2xdk
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1q6tcl2jzmuknrfwcunx55ftgl22kuy98vzqpvqj
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1q8xxy8en6yslszhw4zq30pwdfhy3xdlt3flupe0
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1q9c7vt849ze02yct3eusned4l828ner23g60scf
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1q9gyyr3dzg8a0ar3phsg32w7nyk9npjd9fp6an6
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1q9k3atvjwcmxh44qcjudnggll0u33pzlxfp39pv
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1q9r9e5gmdwv400x0ce5dja4997jwv769489fh0e
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1q9zxrt6cgyh0dkd987duzdnf9w947f2gtdukm6f
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1qarr2zzdxaj98dc834xpucfrd7ewcnwdf2m604c
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1qau6xzgnpzdpflah2ws3lxrwflts6dqmv88ys53
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1qceavmfzyw7m8cc9d55ajaywzgz9phz0x7jttrm2c4zkw2cwddnxqgns7tw
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1qcsgm503d9t49rpwxnp4u59s3w53vyvn3zhdwaa
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1qctgfgnnf4c9wcavy60c5rzs2j2ngsgupgcvvaf
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1qe3qu0pg9kduuw06zh5ezvtzr05sxykgyx7pcrs
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1qefaj6gv90fvmltv7jrnn00atka9ay0y3ag0x00
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1qeydfwzul5r985zykan5gjg4hff80nwld6dqszv
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1qfkm2v8ux7wzym7pl8r25f08mkzde3j7p8dxct5
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1qfnsehd2yxv3jk34a7tm7jyn5ealkaqy00xtzmx
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1qfwylcr88t7kgthy0ztdvlqle0zrfr83a73y4yu
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1qh40nq0uddj7rz7e49c6xssz3kqvk5fry5qklxx
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1qhd0d26s7rjzkjdqpechhx9masfvacl8uzza8cv
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1qhkpym8h8v020frd8t43kdm388w46su8jk0p5fg
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1qhq7pcwr7zu3u2qn6jhy9ec0zpz566vnqnwg7rw
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1qjjpt0raj4mdel8w6zft6a5wqs8tgmsaxfgwnns
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1ql4vpywtpy94ssdvs84s50y6drrp0484z6vdfjj
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1qlef4kvdemwn4gtpyvtph5zpjqz7x0rq2r99qsg
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1qmdnjgfymr2kyj6r8ut4lm94s8qvt6rkxsc8yqm
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1qmlz9dkp2egc7u32w23hd3kuy7ujcx0k29r06s2
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1qne6s9as7edkl2muc67j2jwmlwhea9h9jvswhs9
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1qny2rpg6atnwjd449ylvh6zff696khhyrd94zqh
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1qp4dgd8qvn9zs5tuw6atzf0y3d95mgcqnq59hcs
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1qqkakedv8vtdhp66w7498sk47zxr62a7sx6248d
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1qqzgnx0lgj4rfgv7gpkqkkh84edm9lw7rhmfd5d
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1qsgpfnpvdp2qhlt0pk3p5r5x2wpj6tujr4ch04p
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1qtn8z7wshy9dksdcwr0yuq36j2a8r7hwf4yluhz
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1qv0k0y0p3uhycyzzqaze9nqjfxlyddwrgfvlkzq
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1qw9eeqjpfvr74dy3fv8rncyde5k572t7359se4g
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1qwcmar6pmruk6sak8etkdadnphmrdhqntyuh47q
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1qxhvjzw3kjzwhsucqnzvrj8sgsall07v06qce3s
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1qxpgm7v28tmnecuku2u2v3rmvrga5jdx98ry8uk
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1qz8ku4pc64ev0wr7ep3dkgux8yqntczy0wm9nfm
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1paptwjwd2lqmzk3s2klm3ufaehll493tfetwj8s5synta34pymjmsuwv8uq
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pdkrwreak7j7xuauahmtpdn5m2m6xxch4wha8u27zf4lrqjfwn5zqgkcywh
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1p4pla34rsqv2p55hlkvdv4glseu46a5gulyz4rt5e7aes9r78er6s86elac
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1p2spqqnesdme6nlhk9dq9fycq4854cfrrwg8jggm72lrvvl5xy0mqvle0v4
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1p9llru08mplgf0ug43a9vjrpmqzasdjjtgsemjxccchmyxmw5k6wqmz7pf9
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pk6v350hmzwju2vf6kydue8sfuexa0eslp0nu8k24xwqdxmgxlnuspw0w23
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1ppdatd62pzjhhkzp7rydetaplx64jy8465tunfqwgr4d2vmhvh3pqw3khs6
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1psyfmvzmc5l7ak9hfe0065kz3nqkhwatc8qx0d5cd9u5k4654657syl5p9g
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pwsvk8cwgn0prcyal3dfpjqewnqthf0t322edlxlw47j9sgpem67qaszqqj
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p5vp5u40qa4tvn0hke0zs6xhvf99yw276y55nh69rmrwcaucxw5gq8pptkx
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1p5xs4jr7n30xxmgm4y29y8x5atncgh4w8n4j6wtn2uvrmcwaq20aqwneecy
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1p94222jurgej6jdu2p50lkdsm9c8ydj5zykxaza7rk5lzccy2nstqpvxgqm
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1p94e6e746z9wtt4tjgfvuvvlv47wnjzs04n9g2nesltyzw05083sqn68zwd
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pezqkstmlttu7fg2jrtr6ss3qad4rrmq3tzv3n4tyhvwng5dpgs2q5awlr9
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1ph9uagrq87ss8gjqvfjypxl7x2ckyrnlj9zy6kwrhwjj7gkzy455sswmncp
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pmfmy40e40m560hkwzxz28gndxg5w70p3e5l9fddxhxuyxu5sf45q83ut06
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pnnumyyrkk2yga7fawyh4m2ag2xr6e2pf23p0csel9djd0h23a5sq34d0nz
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pp3wscjzkc33sq9up2hyjxqgpqxfxfnxnusk9mshmp59d0zmujm6q9xs2dg
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pr9lxqv26wchu3z266nmjc4kjf96q0sg5k8weygxmnftgg6zpa6gsnr6hgx
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1ptz8dyy8ykus24tgwv9wpe3ht2tdf2gq5253jydh8xm2e68tth4zsuams86
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pvwz0hrarmqep0z979s5k7n8h88wfkclswvx2rry9ch83mhkz79pqlhd38t
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pzm62eaq9rgvaptx8y8jlgwtkn8pwf57pwrmc206aersn00gpz7yquaxn6x
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1p05sasjdu4qgrhjv6mytd73c5ael9zwzutcxsx08xpg9h7zuaam9q5hudhq
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1p0ae5zu939qm2f3wd3wqjlh7jmygj2v6vzh8pf47pp407m6m0dtdsxq5jh7
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p0gc6ys7j8mgypfrehapecfdwq3rqynxn6wfyc02yazqhme895dmq0xd6at
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1p27xun6uaxhakavlhg5zhq32mdhyc8xsrypftzh5knn20x5sxfgnsv843uw
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1p48gf84w9a662mzcuwcyyv0w3e0hs0vurlnm9f4tkuxsac97m3njs8a8cmh
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p8gzfxav4dc5u9awgdrragawmevtvnl0mpjzc2wcf5zmm7qzuamjq39jewe
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pdsdu6xdd6fypjpsc8kwxdt4er5qxgp68z5nutwfksket0vksmsuqsdkypd
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pjqu68hmg3tnmkuk4wwvaxptdmfg2wx57ap2d9lp7sxe9l2h5xhksh8qlr7
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pkyns69ld5kw7kdtt6fd6038smua8f23z2mfvec7m9d4qf27w6tdsd4llkk
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1plc59he3e9hlvdc0plg397mu7prfm5qgmmygefdrdm8ftuj8vs2kqput7m5
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1plmetnht3lqtfq2tzhp4k3mlslzygffvldu3texdhkjt3pgdgm7rqwmv03k
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pmgzvlnk4nalvvm89ys9ufvtx49lvj2xmyakkcej22u5ms7y8t9dsqg2a2y
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pn8xnkwgumnefyh5fj9uwl4lpv5u8wq4h0dtlzm82fv7zktr7e5vszrln4r
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pt42vlv67sq80659w9kywvt0589rqn7rnr9qq0dn6l0km32psw8rsa3y7ft
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1ptddmt3v3vwj996zkyws9je7smup5nasu39meegkpzxf0ap2s4wesp05alu
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1ptgxaak3dttz82xw5e0pl0sevt40n45fm2tm94n7lulzk4xj6w6jstf2d48
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pumyygy4y4xm9tfwl7cmteczl9xfvq5y9e3ezn3c03wwgx9t7s8ns7przxe
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pwzx9fp25acr836xhgcjkqyuuw0lcd74jexfsgy4rt4x3rp0q0sds4fphuj
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pxmntq9ndg926myz2vn6jza8e4j60w4wjy7zdmy293355af6sxgaqmqwypx
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1qef6ndxezjht00spw2t7ly9rmtzkynwpfd4v53r
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1qewum2h6sap5ch5lf9qns4t0ufe9f6wf3ukhdza
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1qxdnjyjrsuzd33t7hvqtuuj6pakz8t3mlvjk3l2
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1p0282ufkt2p6vj3u2f33g9mlmccql9q8dy6zp9u6q0qgw64d3gq9s68vy9f
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1p07g7vjlrkf6p2qrek4zf5tnhuhsk0azmwwwsy2vvfn7awjd5rh5qgl5swt
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1p0cc26qrg6xxcfv0t3j6fp8pklez3lvqevxjhmkd7h24c07ytmmgqtghuek
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p0g4yxetak327tdnm0m4n700u6erygz956lulsgyrwhkvmtle2cjsvqjl35
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1p0htfyn0cp0l2n95s6xx5mdxtts54p3uf5nllwxw98pps6nw82ukskcp6qz
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1p2auqxq33e754z3x9jplr2zeke6a6c2mvr45z3p9evw7940390wsss7dspp
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1p2qezherm4g6qfmt6ytk5rlsjfhs60vpldr258djannw43p4s7nzsxcu8ue
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1p390akn3e2djmef5703yglcv6j9vhuwdwtzaxhruj5lnmjnk6lpeqw5qxzz
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1p3ehxs7euam3y4dfhyxjym5tvsr396h22d0k4ect3c73d3l0dpgksmmvpav
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1p3mgzyfmyhy406vrgy6k7xcgy3zvsu86ly73q6hud2770wsleh72sfwzt6r
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1p3n47sfl5j6ruukqe4vhs60rtcfc045jvgh7042ngk5cualysplpqddftdl
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p3vm8u8dmm3fsg3dkwm2cspp4rvyde4f58pcp5uk0ds74f59r2c8q6ez8ek
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1p5ex9np7kvnqd8dv9jwgnua7cm57wgw33pfls5swanadwmqjm8v6svavucw
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p5vyuhar64ht8mzude4ugnxy6a4uuael2xe6jem8pq5774ueczgmqmv5fe3
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1p5xz4ju7axujrjnktzpjlxkk0pm2jzldq8xcmjc3r5awg5aalnhusmchk5a
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1p5zk5n4legw9khs2e3wfkw8w6nm696mva0rgmkdnptuavfn0ntfzq96lduf
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1p5ztmhdlf7qgfwl8q90uamcyrt3el230t5awsmft09g4jwhu0dpsq2lmhsp
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1p6la8pgelkm6dcg4hx2ahjf5uejcear43d3fll7ecs0v5hphnn4xqhtlapu
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1p6mdkxcq77a262m3g8v6xcjvxzsg507up9wdy438v25xgr0n8hqmqwexmp2
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1p6whm4hstsnreygwnnhcxdhfgjsa3m4a6fenchlf2jmzhrvmv0qdqls5uvt
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p7ch3wkmducwl9z09wwprzfc8n88uslj5xgjxg2aztja9wpe7jqesw24rjg
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1p8h3gg5dqvck749cah9sfftxutr9kjuup667kk3n7a4dpqje0nk2qags929
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1p8xlj59f0tsljjfsrxflaltynlrzw8v36kqkrd8ng30k6sh9nut8q7qh2tx
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1p93tnq7uta2tzkw0qq98mg5vfdqevk6shytsqgrgy3z6dh07hduvsdsjgeu
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1p95d8j7ynxtkj0pxyvrgzwvwu83lzlwmyfgzszlqe8tqd6e874m8sjcpcas
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1p97syrh77f8mxvrsgp5p4dlc8sym65w697dl0zk0zglkz36d5tugql7a85t
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1p9d0qqx9wdz9tln956mkprxqwxkmp08ve5y62qq4ghe9644ucs20sdwfp9p
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1p9g8q5z364073jsp8kmf46c39rq5d44a5xdcz9psjjc726vg5azeqfreslv
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p9gqdljs72yqs9mfk48hk0pp44puupuqfh5zav2dncwz2g65cdsxstzdxxu
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pa87t763apyfzz7vj3sdsfpd9ttvf4q62cxlz2he8jcv6py3pyxyqh7nfda
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pa8apt0p0ktkfva4r6jdn63psdm96q2lyngpls8u58vjaghyyn39s7h3q9a
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pad84vgx3tfvh9s0c3sx0ev5kexdjjvzkq5t6v2xlcc5cfrc9kt5qqhy97s
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pap83e7y9s62xhaqpl4rygf279gq0mcxqrypafe8v62tclunph7pqt8py7a
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pc3v3cwh2v66sk7p3ft6k8c52awfp7llp3xa0v5ptwstgnu6ll0ts97lm88
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pcn0udgm25wwflwkl0ps35we2f8qr23ljevz3lvv0ryu62fvdj4ssqt0rfa
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pcphwxc4nhr8l3jffy7vk9cydk7atlrs8jgl26q2guq4u3p5e08vsdv0pyr
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pcxvw8jjt5y70sm6fk7evh2fj3segvdqt8kx0632z02pmyw6ah6qqlxdkn5
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pcy6uwakgds7gp6zu6w7jrj2xqph27an4fnqfj8qxuqyd8d9p65rstxymxg
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pd4jpuj6af3d5kmd87g8rexccfhlq9n6c42kpr3dhfv7q898rngls6rgmkc
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pda9ecdkrhqe4g3nmhrcwyl9e6maasu8t3cas0vzumkg48u5upwfqtf7ndu
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1peeqfdvdwnh02q4pqlpljxyekcq0hgpjf42srfqyms95thltf8zgqxc8h9w
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pesha3zx77t7d2wq5s95pnk5t6yl4vdfmen6p8mlqqyk40fj6uyyqqdprvp
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1petj9mcxvl3x9hhy03qn59cjamghjldchselw6ygmny20fzsqx40q5xp80e
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pezdnxd0h68hxrdgvkts2ttzms8axasp0r4v9q82qg9g5fa0znx2s9v87yw
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pf08m5f0w37vwg5rf304epjnavc83vtzxneqwuy272wz3cf3w0tkqmkdjdg
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pf2jets0rz0znlepg49n93wadtsuquyj8lchshyjzsheskt505fds3v6fnj
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pfcv62fscmaugvc2a0v0323kg04atw3rw6ewekdancmageyvu2e0qksny4g
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pfr9zkr2q69nz9fjvcw7cm4urdk3x32gwtu9e47rrujcx0upkfafqqd33ew
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pfwxn7wfwy26nsc69yx7xg65rk0gcc7ws4deala3l9p49nu8w7yhsmr5m5w
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pg78u76awljruee7v6l4s7mmlafl72ht7nepqz5wxyqt245lruw4s05st76
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pg7zwzdadj8yv9q0lztn3jpcgf74v0zuhnhgk630xmsd2kmqxvnwq52kypd
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pgfam5aaysdcq942vfqewmjlg6hcuem6m0atzhmarng08pa97rnmqmqrkuc
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pgng9jgyn6tjjh4xnhg8d2laa84yk438djymgart2e3v6y8cjjrxqzmzfq0
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pgveqn9k4vm4zkjn762myf05g9802nv5zyyr72rr6me032vfdj3asp6tnak
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pgvuds8ldpd3hcjggt3v70hh00elf72d43ksjfef7q88xgx49wxzsrp3ew0
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1phanc7ha3kfkh8uu3m6s8s9srfk529sn7w0lx65hrlrletxgx946shcghkc
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1phhcyfjxmyf3h3a5luy7mhmca2hlwefx9854r48k8wlyj8vwxru2qaqytqp
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1phkz374rtj8w50ah2xcqfajn0x4eqgxtcgzr0qxvghachkm2l8mksxqx5lv
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1phv0ew3f4nnlcxg2pwwa8arz88d5xplere66d78vvtf5rqef303dqwh4n9t
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pj6lsrsgs46g0qgtfewemsz3grk7xxx2zguuwpna7y8l2d6sdyksqq043az
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pjemj0vxhu3y2n5xmpyenu5lj5xjvlhr7yw0tz8lqxy5tah4k08qqzkaj9q
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pjewtlcw3q9ch9ff9ljz5h4eqal0zev0thm5a5xy896wlchew80us4mz9uv
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pjgjglw47k9ce3mv3tpakhycw2xmwhduysahkdynk9kjnkmee08aq4ywzrg
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pjrgr8a8hv5mrexxjq7hprlt53f2v9ppvhg229mh6m7tdyklx9elqhzzvul
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pjuh75ans6n87rp4t5txuw24sl2udyxv2ty5r240v8pgx8swxd8hq3faf7t
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pk3kw4xm3ttxrgvutyqy2v43dsg947qcqalzncx33gmr7asw75mwszrx3rk
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pk89ks5h45f4ju78galw6dlh3v7qdkvq6szl0lhr3zeqq7rcfn4pskkwjdl
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pkh93hs9wj23mwlxj4p2rnsrnz0fwzkrvcyzeks88990d34ake8xs42lxlu
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pkhaumewv4zjjqtd4ma4c42qwfgu0p34juddx4ukpyfp7xusl67rslf8s00
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pkygevtj8rftg7jsh242y3r98rpzs9lltdjgfu8vn6nycgnmxkmhqlqav7p
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pl09vg6nkqjrg0rxl9rwpjdf8vsqymknhvfgx698t7pcaeqkeac3qqlmuax
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1plrtpptm5f3vmha3zavkz6rl4cqhagyhtk9v0q0l9g3m9ugcpm9gqhxv894
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pm4xxu97sezyhr5m5huapfgm4fdu2x963k6tgam9hkq53w22qxmyq2v0kum
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pm6pl64rvgcueussuz4x3xffgtjpa4r0slakm0gz0ja6gzww9m9xst00pzu
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pm8h027sr4zvg739fglygnf632d25k9rq2jcnkjuga6nz3zg4kheqhgs9zf
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pmn63dv6q3cxr6fuwseluk33u7nrya92vz5jdy95vncg6scdmd9ds66qcke
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pmrqy746vhk986yqhp5xedwvvam3ayn9phvlxr8fzq0etclxhfnyqx8xrx5
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pn6gt303685syy8n8l53jvktjncj5nucpks6y5593zarr58vvrngqhuyw05
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pn7tlkjs8de9z7tcr30m06tcmzcq8alwhdsd7n8nsejjsjje5qkxqzlnwfl
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pnedvzrnnx3urky9fs4djap8t2745fvzhzsreq894d26y3wq82f3qxxs757
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pnekymrq3xnnx32qmdknclx6szlvr47hxncc9c6mxjy586akx4pysejv2lm
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pnkay9gn7zts0rysenkcyd46mvrck09yvccmfepdsemr47jphdveszlc5ww
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pnwd0mhmmffh3c8sc95uw9nfe8pallmatzuxt0z9tu8taeyszjlfs40rpje
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1ppumhccwrpmtteas6w0w8tyaz5r2afet2gtdklw78hnf99fetxrhs00emaf
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pq5ed23agfz3wwfdkh96w05vsxgfn38xmk2jvdn0dv4rvgz5e7x0qu3lmy0
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pq6lds3a5m6ueqslrtn8gcmhl6a57nwf9qjzyy2xe5fl3e2t0q7zqhtajvr
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pq7tjcwj4chlsyxjz609kza7ty0z8tgqkv6dfhhdj4tfspn5lpn3snzkme0
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pq86sue7ag84nhw4n6ru4jfl7vjnfhu7kzdacmrnd8f5xqge4xzaqaearmk
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pq8mjeewh380w0sa84v0wv3ht9yzv35wgfds7nr0ukjd8m2pl0whs5w2hrl
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pqqjh7w368zdlpn9flm6eg59rcck9u7tmsu73gzy7z5m7uxq7z74s6r0chc
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pqt3676dmejdnnym0ah2lt6sxdgr20lcse804e424mqmrrnf8xq5s6z84se
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1prcfqyclalxv48vaazxdar4zk6x7cma4h0h90vdfksljltdf0tznq6z6t04
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1prjwjael075q5dpmzzn4h0vrlshv29d6wcugajztxtv956rz9xqus08yhlk
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1ps8ydawnayjxjuldra3rk4ps5gqk4wzplnzdmt8g536h4jc690d7stysvl7
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1psg25q34nkv7rk7x6449deswjsezcmmmhyy3p2rt2t0zqtv3lnphsg90k7v
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pshpdqdq2d4qaqtfrf4e5a9q64x2zezk7jj2mrsllc29nped2ny3qhjpas9
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1psmqjfeqftxuzmjheqyasp9d43ahp25kkuk70w3c4sfq84sukxcwsqkc34f
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1psnverxnlxqmn2t79a2gssgd04tsxvprvmakx9cqd8s5rulryzw6q2w476m
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1psuzqdyx9qx87ayymtuqymygv8mvu4p88njutz6znsjlydraquacq4qkxhz
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1psyss9h0kf6ux8m97akwy3hfq95k7pfxsqx0qerkk27hp0d5etvcqtv2ss7
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pt00m95wezyan72fwxjj9h4yagy0afeh795yulrzyu6zs2ycnktqscnhyn9
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pt3qm6dtsk24lquzg3a4zvy572tdlrp55u0ksfeexktzk5y6npvts3q5djh
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1ptz6ua2sadq27dqwlte7fjcw47hu72e34hrr3dumc44fmexd9pnmq9trxly
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pu4cep8gyxjcerueulnt7hx0sdep2szzefqul5u3pt98gdcsjgvas8gtgrk
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1puldqgpt3maek6egun9qsz7qptzmttx6j0sfwn4d59nwqdx7sd07qtrj6m5
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1punhaxdrs60ufghvf86nw8djmd4as3w69xxkjppu0htcwpdtpsl6q4pajke
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pv8hj9nxvs46dk3yv43u0u4jhfalfvzmvjj3d7rejgl343exzugfs0ayque
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pvnpf3rfd7rusgefc94dsr3xnx5q2xcde3s27rvec0tm5m6qpnfdqeh48lr
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pvw4eslems87d7avygyktpzhytyys5xhrezjjluz9tqjfknlz4jyse3s9ak
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pvx95juykaq3qep4anuuyep69xkkrd23kwv6uuzwsl9txjsp632nsz8tevg
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pwd7pttkfyy4322crw8lr20al5ldaj2u2qr92ccwayxfhml70gdhqyx42eg
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pwgp62escrlrcz2edsc9x74t22t34gwhex9fnajx5pu4er6quvlys9k8ne8
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pwu98ajv8p922eyqmvw69jzft9t3kxz35wszj57txvcwttw4p699qw0wfc6
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pwzx65mawrh8s2jkfwn74q7csp2r8qua8ed3rzlvp5artkuuh5mcs894d35
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pxd967dl32hmcgv7rvn7x6qt6glk9g5eml8cgfxn947nhwyw76jsqgnvuv5
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pxgwgqqw2q35xtm64z3srxhz8rhxkeelyne90434f5j2md2zkyd3sq58pu0
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1py6yk87ygxqyr85rlkusyf36syj99nrmtssp4u73xcvul746k6jysz7txv8
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1py8j66ltr29vv5a4h5n7z7w75px76m55a9caq84akz2vns70vhcxs8ltfwz
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pyhwwctvqw64asqnru5z5alx5wuvjhke6lzurg9c9wmmxkgs9jgtqtrgj2y
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pzr44nnf8smu0y5gv6tu6qyk8ndwsa0k6r3zwvn0w6z5z58vtdvzsceu3vk
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pzrrxj96fuqk2mxjrrsps5altcfkv2a9z8ypcc29mdj04wzua9y7qf36we0
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pzvl05rg5nc4n96v8fzpfeu6ld48dk4g8gugd4nshs2vwp7a0cfcqg4ukaf
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1q27hdwzx99kcnajpd63faejgrchw5a2fq34fapa
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1q40zeewatd3vt85atms7p0fztw7ns8pcks02l4z
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1q6wjkfpsjf327l9nqyq30xmuaxgax9fcgsdtnxd
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1q7fd9grqun2gqh2chxdr99wa6a0mudkgjygslsr
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1qe4lkelzdnlmdrmsfvauy5tqlp9cfu0qjnl3krg
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1qryqkzl3yw953syrz57ks2usvs9wenz6w8ywkeg
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1qyzyl4jhxw2v27kre6ytxsjrude7t8wj47wfm6c
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1ppt07x895yvkt42nn9hmhga3fha450ywn44d0yaldr7s06zyf7swqtan60s
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pekm0z6s24mwcyxq629dng5de4s2z4fm6vg663hy3rt99x4n4twls2zxnfw
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1phvrz6s9rwn4meganygu8hwxag0z9umdkrm4rvl7605f33t4n2phqh40442
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pj9gw7vzmc9wgapm7edxrtkcp6gr9c63n0tnfmqc5fmq6w57n32fq4354ss
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pk4aqgdfy50fsq59zde2te2faawwxl3kye9qs9qq2zlg0ezwl9y9qd7e6uy
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pk9vfm3vhderyjnkqz497dcz2a23gelscywye4ljxktgrr4mwh6kqrmud2y
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1plg8z8ysgd3pl8lhmt6kl9k6fae5jmnuvjmkhstv6246zp0caxnusj7g0aj
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1p09ztd0vfj73e35qrmtaz8uj4umvd8e5ek6vx3hnf49j0rvk0py8s3vt9va
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1p0nj6am4xzzzcrkg597a97dvaaewwzt0vm4w3zwm0fzrs9ccehjfq0k7mvc
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1p0uujfyts9vcx45c4lcyj8sjpq0e4kefl6l40l44nftums25drlcsendgrw
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1p0uwtkxd4hmwwdjyygy5nldccx3ggu0q9jud8t0yhqjwyytc7s4mqdjjmj3
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1p2066tacpht6s2xyxqjvhynt2866mkxq83rwlmkgmkysgr40th2dsvc9ff0
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1p2ejyuazegvnsfr0md07gfz993kmrwrlhqk03ku80glkrh38s678sx327lj
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1p2gekrvmyhu59jn8zxw76vulev0jj4qkz3h8y3lfw9c2rxz7g4dfs73hc45
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1p2n5sazeaepz4jwuu4u7fwxd2nn9esp69ck8dm3k8vgs03ddmsj7shn34x7
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1p2zejwsfgwlsue3f4jxgggl9g7wedefwc7p5u9fr93jrdmtmddrmqnvuelm
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1p392zwnlqp4y84wqd0xhpgxcxf3ex564qaes9uvuxtzzjakqg6czqfz3ccn
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1p3duwtzmt6da34avludzzv602xwjtfzrth4y5savt6p8z7ur45f8s59lgvn
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1p3yxhmegd952qtpjcws397fgexx7u04aw8yvust77jrhe4q4q6gmsyxh7hv
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1p4d0arectqjlxdmqzhxx8g4mkedtr6a3qgygu3mekzegqehn5xjnqugthpm
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1p4em2l4wekpfm2qaxghhcxwt7xhqvl00kry9u69kcysjratw3fuuqczwej5
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1p4m6pwd74w3m67d9gwmxvkhn9j9kuyxx0z07eys6xsmlgf0rwjnxqp3addp
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1p4udqaesxe8kzla0ulc9uzfdzlj0arzqzw8aguk25lmqw9dluhthq74rdtc
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p553uwslpjclnljfdwja8dcv28vas3v8tu53dqsxzarl3p7ml4ffsg6vtwh
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p56dj7apqhawlxn56ztcsr2tcguf0plqyu8ea9wv2lzl4wc5xd8dsjzmukr
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p590vx9tts3guqx5lmakl00jjlcgk6cf534tdrx86m0lu2tta2tvq975acl
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1p59wgehq2razy965tc8wjklkrtsy2hqe7zx205eu2gep8uqs7rnzq8y40fr
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1p5gfcyzgmy87lfe2dgntg0h6mjgtrpy2sv5rnwya4zjn7g6t72t0suvnez7
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1p5m3q0e7wpqdl8vf3lu86uu7telpjjsshw4d6nllkea02rn795zgqqj76r9
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1p5t9wupd8hwku48suz0gf7l97x6jwp06p9ytcqjnte9pc8su6plkqsdw6rt
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1p5tqehwdtu6cn9m46wmvatwfc26jqenj78zrld7vzsjwpsj9kdpjq8xys3s
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1p5vecgnc5g6eu8dsmzj86v02n7gnhwta0esnqe3jv2kmgm0t2w2tsv406dc
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1p625mhtfsd79lax0c5lu2hvjqcur8fegjxj2vf4hf26mymhwy4rkse45efn
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1p7adwk0343tq0t3jwp69ker739rty9ncp22pxh2xz5y0c9qtmd6aq9yx98k
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1p83fpwfjhfcpae49u24p894g46cfqp8vpduwel0htz9z6jg0smszs0kcsse
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p85cl5300atcpydu9zh5efc9wsrf8ajzt3lq6j8p5scj47c4q8x3qjxwz25
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1p86h808t836cf7jctmva5ds3kfqlamj42lrwh0t8rvdggcqgg0grqkkgykf
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1p8a44kr3qygaaqek95gwk4apv2rpsm20jcntfrl66egg0gftrw6gqt9c9lz
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1p8pup8v5kun2x0cl9sz4qzd3k4sh0sdrrrg2wzy8x6ut5tjckurkqzvjdxw
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1p94ktyaajr7yc24ez2dgpf8fnl3d0ah09uy7yw4uyxfdpqu6l7emsvt0956
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1p953se2605eca5v23d9e60lddx7xf3h5gxzqt0ayg0g5dfgke3xtqu9kk66
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1p9gpcwp2mlgglhcun55naf5su6ndc2adsdrnuwf48f3c55nta8y3sdsezqx
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1p9jzgz3zj2ztuw2pnca072dfjzwtj8fgrm33n6dhlsz970vkvph7sh3wvsc
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1p9uarmuzt3xc6dgtmqf7fp04gsxxn6qcf8c92v0jm0pv3z8s7fksqt2ntqz
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pa76z7f04jlu07zmny8306rdnyhwny8a6psux0dk22krxz8tkx9nq2cndg4
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pacf3kmavn3wf077ch0qzcghftjf5n3przwxapxt8p5nf579nylkqcdq4qp
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pagwa3y0pjuz3zzld3ty4853w05qtc9fzq2yh23lcjhu9vqtgaehst6wywg
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pahwruxa60hd5chl4f6lmwqudd8lvg6hrl8ufvsxtpy35lw2wdweq4xzeg4
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1palys0ux3q7yjfhnt2f5mz0xsrgdvsl8qu5fnngq536l26v94u0zqp9xsn8
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1paqgd4synezny0ppat8wjcrmvrhtw8g2yt74vkd7enl2529sdwf5q57udhe
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pavq4fz03rdrw6zucktucsv0595dgvw2sm9z89ullj62smhyht8gqdrtj9p
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1payvhvecwfj7uq4xlf52x4n5m5zm5cucs5zp092qnf4dg9942jpgqlg5ue0
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pccvhh6750ur76sp706y9t07cy78x76qv02ku29qv9ua8u6jjyj8szfncxn
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pcfudjz8u5y6ddf9xtsvg94s8yjssragk9g0p388vn3zhjh2sftpqth7n0t
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pd2pgyj3nwfttkla6nphlfe99q5kc86fqhc3h245h3y3yseh6l26qkazwas
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pd8ps0q3arn2ur90ke3l9kuke0tzn5vhv78aktfcfznvzrnj8gnsqmhkwrm
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pdkrz0jf8rlq0ue8tusfml3v5x97myfkwf5ays8kuswwtdyc322gsp53trf
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pe3d5lpsduqms74tat5w228svnlmnztnscd9k2uwqavjdnjwwe3cszhpkqq
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pe6aypssqxkt7xwgag8cdtwt4e4m03mnjg2mtn0333uwspxykx8gs5h8yup
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pes6086jnq9mmatp9aag6c2jfjdaj5augukhjvcyfy9lq78kwuf0s0n5nxy
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1peslgdcp9dfyamuakv377vg0yycrl0jyxyrt8qa4qwk88w7arv5vqmdrqpy
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1peun9638v6h4wy7te8wlkd3e4l5vx32suxdgr60vjxju6wptl97hslxnwrt
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pev7w6f0tvf457luaueu6efw6yztrkqmu6gvps5ry4p2f6crur0sqf7mlgf
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pex3g7jjvts8kunmdqanwqz7hj46hjgpsxt0c7g4a3jejcyn2zz9sag8vj8
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pf38727fym80cwf66q3pjm5vv02mgptxpgarkcduve8t2xev5mrsq4uafjy
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pf8chfujzd0s5u988q8w4d40wvuuw8j8txh8tdeujc0zgmspwjh0snyqdpt
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pfd9422g42snxmksqury49sgu5f6rk9zehj670fwa04q8gjres38qtk7qhv
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pfjwrdpf2jetd7vchyq3un4vpxcx2hwytn55hppk8l72c9fzjw4gsxkl54x
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pfr0275m0sls3dpfngm6z0cvpf27wwsm0nmydw2s7shx05y38zqxselq8vc
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pfsce9tg7fqf4wfttt6knsfscrpqxt2mtaav5gj3f35fgsgxzec9qswhqwv
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pfslkdhl746kftaj0ackqer2crgvl7wa0hzch2nfcpp79jhgygl6q0zv6pv
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pftzfyjxm6fkzf48t77h88392m9uxrz8unr032xksuaqspc0330dqrypu65
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pfvny9phupyx4pmr0w7rlqghfztla4a9ullzwqrylrw7s3992vxrszru5lc
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pfwsk3jyhf44wkh2gkyvzfne6wgzwkcdedp0zet6npmec7adem3hsm8x3ud
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pgc77wf0atgncj3cpq7lq4dl42ecncu0443nta7xe8ut8ytj3frfqt5gzfd
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pgf49fjdtt3y09qd455wtv0l74zpsj65cts6rza8xw88ut9yle6xqlp9yda
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pgffqtfzrnhdrqh9zyxad3pcmjezhcgpxfdad5j386xswlg85anjqfvexsl
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pgy4g4ulqfzwal72rayjcc4panz6c79k0dvce0dwxfuavnwy4dglquyfam5
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1ph20tp5xpcnqrqcj8zz7z6rxdjxxhyesauenw586ssm3efqfq300qelfshk
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1phj6awl68axt07jkeavvs3c2st8790wp5r9h27y6wgyat4nqdnk7qhpredh
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1phrsext48uf786ft0avmkrljdwf9zxqrcv7g74qm86m3z4fptkt2q96k34n
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pj908pzvv9kzcsh8q9zvtu6k9udde7y9w8qvfd4vxqk8j5hq8mqcqyk5tvn
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pjrp4ln7q9jqd6k9ghwgyl7w35gvgh7qkke350tw5m3rrh8h8g0nq5ck5p8
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pjznrhwye973m929kccf2gl28p0zkzemey8h07ff2ugh4xjdewqpsygl3df
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pk3dmmr8hunt0y8y4rgtc3qm0e2l7ek04e9r4c7dhpmw08gx66cvqrwxzs7
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pk77z3ygasyuwux3e7u5zw8kxuuf989s2s75lmffdvpvmpez5gtks2wjml7
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pkdmu08l6luvasvss7cq905u42u43z03dw2k40t6tm0eukqd55t8qkl78ql
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pkggjh92egru3ycy949xye54dxq7tyy5tdakjcayvf6a9drzsv7dq9hp4vu
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pkne94uue0rwp2xtyv9s4qhgfvxvctj4d3xsssendx0f5w70gjpxszsc0ce
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pr67jphq39u0n0tzhylxpns2s9r3xynnj9zmn7cmr3650hs4kdnuq00f3la
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pr6jnr4dcug5w39nffgcy0gs7lye0wesmply7h0km6gcs54tmyzdsdt95qp
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pr6xfsatclzxrl5xqfwat2w2wn4thefv6wcg880krda97jmujumwqvqfz70
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pr7lldghhs2hsm6wyg0cxkm5dnhsl3z7sztcx0phkjpkc2anj2w4snzmqds
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pr8l940ey5e2xy2mzkhjupmny9gjcfmgwtcpg67f2n63d5hrzv8rsvywq9k
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pr95snwqgvqc08hch3qskp52am0870x6m4tg86epqlg59zc42pptq0lt78l
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pr9fkua5wpn5je8480nn9yzrqqu25wlu2j55rrlhyxchrn3s634xsrlv75x
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pr9h6nuweku57keg342jl8u0ylvgmgejzaj399g3awhthwf5dgm0qqg056l
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pr9rpnd08dgmg5zxytq3cadk5w7y0pu8dh8zvjcswz3rxugqmljrqymdqlt
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pr9yn7eszlg5kluw2rny27c9q8edpf54cr2v9nrjnzfexmq97v4qswvchpu
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1prddye5vvypj2nt3v3y5d425wjdz3lgpfwj7dxr2xt8frtmhajwcqh6farp
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1prdgde08t4lkew024snqyhfc2ucsucd43h9mcpgrf2lezys7xf9hstc4eun
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1prdytg2knut2fu3h5j50z6kkf3a0ccf6zsf2dz8ldr9vgnjggsjvq2rpjtf
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1preeqxgng2aly5rjc79rew5tg9z0rx36funeg3kpxw7ark8ltdwmsjy9skz
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1prf0ul4zvahj8d5yz2y25y5smspqy2e5xa2q4lkaqdy6yf8fk7lgs776xc8
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1prh6442p62l7y8wundqq09es9sk26wuj7wmkkg8xjqcqy22n7tkvqfawwpw
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1prj64kxjgddzk73ed00edjt92sn2aady0svytn4a3qrch86a4yyks56mas3
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1prjyadgwmwnxsysjjwm567rw7t26rtg7z0psk3zj49466rejppyuqp5ectf
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1prkdr7twkr84kf5mhg9j8tz3jhl2cc3nwzyzrmgflsz44sfk4d3ysw75c0a
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1prkh272g37jwuhvx9qa9dfapaes64neax7ulxcy9fzjl893d9qppqgj22t4
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1prm07uqzq3vntwgj5fsla2lnadsrc8gc5cdmxluzdqr3vj6g6xrhsnjv9q5
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1prme3743hjwrknrr5vl6jczx4mh28h4ymzu5yxgfs64hqa70tv5us9ydacj
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1prmj4l0ssswcptddktyyc0f2arqsxtg38sup2hq2328d5ndfkg8mqg2wfu6
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1prmpgp658g3zdxlzphvmhjj9ssrsd2x7z2qk0jarkc6y5j90zqhdst2f2a8
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1prmtudmzdfv84wxdmdv5lcmfdmvq9pyx8m7yu5j74nt7knv6kk78q2d85du
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1prq3ulkcykenlz2cazu4f3qmzq266hkxwj6gmk3e7k5cxrw6cs8gq2h9703
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1prqmu96d7n4nyfqlp07y7vkw94kzs29rcza45pc8du6rgt54zlj6q3rry2d
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1prqtfs6ufzwu3deh0uxhteq58dtw2mp62zzznkfyv9ge3kl84vx8skx8y7g
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1prr5c6dr2033ul83uwcz2m26cp4z056aasrtg04sgjv0t8w5e8jxqxu62sl
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1prrl6tmg797y5c9d9ymy3c5fs5tscaskwffqc48vsrgvvqsr2c29qcaqh07
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1prrlvddjw0qq4lck30shyc326lvsmcnkeuf6m6kszt20yx9tnmqpq57f472
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1prruser7k6mjyvqrldr4dj2usnjwxj3kswfapk4my2n85wwa3vr3s3aaxp3
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1prt49vlf5tdgentajgx8hquzky753h8q5z8tqycy9ns070wvef0rqe85wka
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1prt6895jjrtmttlg3kkyyyx5duaxgqk7mugl2s0utsp4zc6wtcmdsh06p6p
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1prtmtxnxpaa5rfmnz07ylw4tp0an9c6wn6ddmqjlrcptf9ra2yufq8sy8dx
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pruz7cf3sysmzfjvvqjmppuk7jc9mzh9dk8rjhggxfefe8y3mwd3sr8f9zy
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1prva7kk8xsqx3zh7ru02rjr3cv2uehdtwjnxfmeec9hn0lns9gfwqtkvmtk
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1prwg5th69crjyknx24rd8w4zrvt6qt93c7ddkjsvxtz74qad8w53s9d58l5
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1prxwwwzn9ud6axrynyvwtmzazckp0cmgr03f0f7dpv3x3j65rv3rqrkjm4s
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1prym0trcuqxld47plcm08dfyuzuknegygcdsjv87d5mxvv5py7tts300uw2
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1przhc2yajlrxglp9s3xa2sesk7jfatgx0wxt88zud469fe4dwpk3qh3fyff
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1przqgl95ets3r7pl89dtq3vce03nzg5e3sdf7pjxflep0l6sq7lmq2zhew8
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1ps04r8qzpdjemc57a9hlkxma7ha3ap72zk2x2l8cqzmpjhwfmf26s9h609z
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1ps093dtqjld2h9zd0zatxxdq96sw0w8a7uk36d8afe0u9tajpj68spu2k5n
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1ps2l49r46lsl3kdl7jcrrxwd7gs7ss8mneh5g3nvs3mlfgugsl0vq42q6ys
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1ps2p0pfsrw8fgyy2hatxfar5sf9tm6a3ghva2f5jahyd7x7tp476sdtvce9
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1ps2z6npsedv5d0c8f9gv9sfwggy6qgkmkdr098lqc8aurkh30ktssze9v9s
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1ps3yk2y9cnm9pjcrpsxwqs6ssfmr2808vc9qpmsz9fg3s788rsmwsfs5xtr
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1ps44aqy5wwxwlc38s9dz8cckyuxkkd8rcux9mxwggfc9jdy70mutswheslf
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1ps5qlyk4depfs25kh7f9y6c4d867ecwprphn66aznw72hld07dsls2hd7pa
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1ps6aku7m77m5qwd7zvlqak7mp0pm6vysuf04l6c4ph9kcd6cp90xsfffkan
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1ps6avus3hy3fmwfwxfcpddsmaq5lfp7uts26d9nj32nn0vn4nys5szf62g5
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1ps6nz4t600t7y5euvpswdjpvgufvhrq774c4jp4uzdfzg9pjvtvcqtehmrr
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1ps6pvqn7p6jknmy663zwvplt5vgqcwfdvwy50cj8edh8j39h0xzgs73akf6
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1ps6ru4f54suxaatr7wyduhl3a65tkgwawtl7c4l0qk6va82yrlfwqkscc5u
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1ps73twemh62vvqglkdncksug6vpe86x3wkyfkavadq3zfczvyv3ssyemzmd
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1ps7ykmfvzpf07uan3j59vlgsmntnj907qzyhrrk5rpr3pm4f9zussnrmr7k
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1ps7zxevg2grxyz4tg3zlrlr5htr4p50vsqw4m3wg2rcvdarhr4wyqsvt4fy
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pvdn2j56stvt8szv4kffd9t5edaup97w3qfc6jmhpzr4gqzx8szmqyucpu2
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pvdxrc89akeergu0n66mcarnj9pnxm98ksqgm9levk3vdnp82puaqh87e25
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pven0qvrazphc52q3dkyzgg74k94y92dadpx3fxya56zrfs7zn3cqnd94xe
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pvgyzzvndw2f6rjgjtysjgnf99akl8mff0864pn23e0k4qnkyzetqawdxn0
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pvhnw3zykajk4ulxpzguvuewdr2ar7hfzydnwvp965z2g7cyuyj9q8heth8
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pvhz0u6qhzqeccqx64gfgg9xhlwt4m9nqhvcr0mxu8nr4m38gvmlqrje0cl
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pvj088d2urqvnr5gs2ld896l5su58fvrlwjy8p98z7utd3kpd96aqfsdqpu
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pvj0ppxhkfnsvhsctx3p9y8d3m9d7ankz7umrlkqke70mlklmh9vqepl3h6
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pvkgnfkwm3au6qt9rtdwdk496h9pez6llyegr30ms3e9t8g5zj65qe48sfr
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pvm8cz947hxepc8m0nrx8gpylh2k746mwgt8g3m02085789lw8tfqyduvfp
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pvmafn6avmcnhz45mxv9c282jqj577pzk9278eye76swe46pwwkus4npr0p
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pvp0zre0ca3lh2zhf2fwn7r5h4l7zfxzryasr8p99lnsmr5tznl7st7g2h3
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pvpjpmnvyumnnv9f55uuceasnmk387hcn9ked4w8vg0hugm346vlqkgksam
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pvqf52uzkfz30twc0qfvn4ly60gy427zq5xmsq7990vvwumnkmyhq40wrxf
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pvqgkcg82qqmu0jy7zlvesrjuuamzzq5pj2q28ahl0w6pvl7m3veqs52lla
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pvqlpntqtgh6sfav95lkxz65e95ezt4alrjtjpn3g4pn3hefsf8qspmt7zl
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pvrawdcs4gtfc5gc8tnkzd7d8qseyejpt7eq8tc9wcmyu082jjudqjcm9gn
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pvs2d0vz96q8y8cam8qdxx5vapy6v2jx0x0wn5hs6yxmxw0vvxedqnx7cds
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pvs7w4y5jj2h3j5u49cvvpscz9fk8ux0kss6xw69lrgdnxsdkrh6sfjmsnt
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pvtn9eun6vk6cra93rhca3jtwj5hal639nf0ku7c80lvvpecr360se6teln
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pvu202hjdduck4w7f9dydhzlz2upztqwt8ue6q3e7jvvseq8uctlse9hzr8
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pvu7rtqzm99me9h4w25k62dmn787jup8zsa29yxsahnzj3hj3qxwslweyzd
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pvuz8hwxle4t483yd773lwt4lhrpuhtedswcwtfqrp5q83gnrscuqnz8w0r
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pvv2srygmmxqrrt0zue9dtmlapr62qg5xmurxjewtcy6y9v7lxhds95mkvw
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pvv43lty8ssx2hv74aqwwr8mmcrzfdc9s69r3vqgx0j7pyunqk24qg6syxz
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pvv7zjx0n02mmtrdgadg575uhwx0ddhxwj8uemkvx6nqpck95muuslk9zfc
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pvvgxzmchw6qaj29gukwvrsfwrjjwgjl59ctm2p8n9seusr04rrfqhsasz3
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pvxewcuv25dntg792hlhyauaevmhygdwlvsak8lnlwpchtlcfrcwsxz8aqt
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pvxjxrqn70pwapzyxzdvver5vxznqlncqce560mvfvkksay6ssycspjdqum
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pvxzn6smv20r9zcfum30wg5t5fcqqqw779w3tcg8x7dhh37swjq4qeshsj2
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pvy0akr0ye2ehl8sr0958q7yzdd7a3quj300pxr84r4qaklg4pens95jjdc
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pvyulkcgwpdzdnh9j5jxwp44ys8euulpgn02sup4zu8sqey2k5anq02kklv
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pvzqmgxaj9xfr3xaum5jnjdm0lfp7v0jks2are34u079m3zccg8zqpnwk65
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pw28savw0dx0zx3rg8fvswn9z49ggtd7jygsy2y9drestvvyvhyaqqzrraj
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pw302ztwjczua709dpw0zd7gc564qumcrl28euk6jg3dr4mw28ncqs8at58
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pw47gdptvc8z3m25u33g4lsj70lj9v5klywtk7dpq95h75gdvspvswy3uwl
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pw5v6lcf4dnl5jt7fffcy6d9naglvhg6rwjepe4gt8l89m5alg3sq4tssge
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pw68uqjxvjeaeevvmjgwpmmc8cwwpj79v6nq0jq5s5f6tue4u80xq5elu58
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pw69d8nppahzylc2cwaqa30pqk6gey4gw2eqrdy6k30akpd93fa6qh8vma8
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pw6p0kesuj4z54n46mh69rw7kp7hs22z7m9ucmqd689mlkw04mgcs5nfvxj
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pw7vy20zsvky8al8s2rf0naufqh2463ygcg7g2tje2gydwnu6lcqq795jq2
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pw82q6j6rqv9qz2djdeuza83euxh0376qr035ju8g3lt6083xt67qk54emu
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pw8lyehakns4hncxqp6ad4z389gas08uh0c0zasxnpfyh3p8vkwgs56j8sa
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pw9lec838g3p6rk00vts7pxf2qz9shjh3tnqggawp9kr600y5kcus9ltt8z
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pwacnqaaeyg2ur60n24ahmwq5yyhgwjlm6tcg0smm63xs6ufpujjsgl2laz
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pwar5n8aate2av532gdgjl73tnlvc3a0nuf27gea9nqclh74fp8csek2huu
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pwcf649jmchakk9wpa2465laq43fep7l37832pdsa6pd5jmk7hdhszeynju
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 5b098af38a23fb62cc3582089a47cf8b0132240a5f19cfdfc92ba7e1cfc61064i0
+  destination: bc1pwd2weq2kpss7a0e2x6te2sv5qptq2ntwh3p802wsytzmmnvymkas8ghut2
+  metadata:
+    name: The Neo Nomad
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pwgm4we72gftw2npnrtnxh98j6cxmmmcu43acrfemttjjm8srgznqfmss9q
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pwgypexgh00d2zc6yquxrc7vg7argql94ushl6kmxynz2yhga2jls9tz9ny
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pwhf4mls8e8nge84r9dxul4f66pw5h8jxjx42p750np0mfeujad2q2vrc9y
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: fe4d8fa19b7c30a75db3e439e72c2f0abea2b02beef0a06ed73db03327b6c4c5i0
+  destination: bc1pwjargakky7wm02x556p28tl3s0sm0l4w30v8p7ydyq2ggsc5jzdqkpjsxx
+  metadata:
+    name: Dash
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pwjha5rw3e00lz8wm43220h0r4de5y8ye9ny2yx05n22se6mvhx9sjnga0l
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pwjthzfy98emyl2mlwxmgdpukjqjxrlmpn7wkjutxpz5kyrfr9e7sk7682p
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pwl4q7d03tt97gzk3aqrnny52efuch79329jlpqp9y3q7pppq4ekst408a5
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pwl57h24ecsurje63h9mlyema6gk264yrgca5y6klyya8qtqqjt2ql2j2g8
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pwlv20f5m6wk64s3h7n4wmjxuw7e968rc3sh5ucdcgf95vgn3muzsh4wm5j
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pwmzz6d5e0y98ct08gdk72k2vjlhqwd2sqpwz2qz7jqe28vqph6ss63q7wh
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pwn835z9zhmgt9fr3zuh5pxdm7qr7erh6twvefwddes6yjyz8na5qq2sy80
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pwpd0s0mhvskg6af7jt6ghc564pspdjqmgcdqkvctry7m5zk8ce5qw670fq
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: f1cd1870a3c123cf197ac1ac3f38711ede851579136f1e01622eec0b18e60e33i0
+  destination: bc1pwphwc43pqsvvfnrawxq5e2nrl0ldee4a85ury25gx03csxnrrtasqjx2m4
+  metadata:
+    name: AI-X
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pwptt65j0dtp2huucyd3rum0psg8akah5jxlewgf6jysv32sp8mwqg57227
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: 6f61140106d80cf14a25a43a66a51c7f9a2d3475449c374db6b1cc554a08a767i0
+  destination: bc1pwr3nh50t8ztrv3u6cndddcf0y4unc2xmfzh7cadm8zkgvrvtwqcqcajg3k
+  metadata:
+    name: The Renaissance Sam
+    batch: 4
+
+- file: a.txt
+  delegate: 8e6432cf772fbc509a6a278262e465f0a5acf674ed3f2606abddeb45c3414af3i0
+  destination: bc1pwr4edsnhnummsvg42gaxhrrwdr8d9lkvkgwewwyg5amm6f80w7ss6ue6nz
+  metadata:
+    name: Captain Engage-o-Matic
+    batch: 4
+
+- file: a.txt
+  delegate: a54ac0c0eded95a4eb3de63e4de5b2f9381ef6e80e4a9b1dfc9d95f10df93491i0
+  destination: bc1pws2pfz6adwm0gaexy6zed67qunv2d7s7whrz0ac4fcrhw878w6eqzdkr08
+  metadata:
+    name: The Nimble Networker
+    batch: 4
+
+- file: a.txt
+  delegate: 565ef9f67e6899011ad37f7c75410c564d77e2052a366010c065a0bcb9bb1a0ci0
+  destination: bc1pwsfrk3mgvf53q208vygwyq9n90lccttmrvmcw7pd7vaqx8wctkdqrqsyxg
+  metadata:
+    name: The Simplifier
+    batch: 4
+
+- file: a.txt
+  delegate: 30e5f9c5084970e3c2bdf8cec3c61574b1b2ff30fcbda4a8c1750a8f4c8c09d9i0
+  destination: bc1pwtdaddqmvlwt3pgddsdgajt6evdfnpf9xjqx08xrxsr3me98x8esx9mwld
+  metadata:
+    name: The Resource Renegade
+    batch: 4
+
+- file: a.txt
+  delegate: 68dddf6c9fbede5b4f6e014149946517685c4aea79250051575cb68136e8d3d9i0
+  destination: bc1pwtfn9glkc9hmjjfl7teannvjsnuhcx6jpe9lqtmjd4ecl63tyvrq2s3k74
+  metadata:
+    name: The Mad Scientist
+    batch: 4
+
+- file: a.txt
+  delegate: ff7a3b1dbe8747e96de412d84f9ec07e79f41b846ec871dd0509b08fe8600caci0
+  destination: bc1pwtjc3uzzkepsxug6yw8ssczqduhj0l27xdyttsw0ghczxjxx04hs57mvzs
+  metadata:
+    name: The Crowd Whisperer
+    batch: 4

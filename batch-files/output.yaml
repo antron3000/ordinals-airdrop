@@ -1,0 +1,59 @@
+mode: separate-outputs
+postage: 333
+inscriptions:
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
+  -
+    file: a.txt
+      delegate: 6f9baa3e1104761c2b9dedfd1723eb9a74badfd0ecaca30fe8c48286ad15bd8ei0
+      destination: tb1pa0knnf30ly6jp2mqh4cyyft5z0psm5re593ngklr87ea9smar8sqtzhn37
