@@ -48,7 +48,7 @@ function readWallets() {
 
 // Generate the batch file
 async function generateBatchFile() {
-  const batchNumber = 4; // Define the batch number here
+  const batchNumber = 9; // Define the batch number here
 
   try {
     const wallets = await readWallets();
@@ -65,7 +65,7 @@ async function generateBatchFile() {
       'parent: 9d71fc47daede70dde1dd4af7cdfffac18627f797d7542880ec6db2107ad62b6i0',
       '',
       '# postage for each inscription:',
-      'postage: 333',
+      'postage: 546',
       '',
       'inscriptions:',
       ''

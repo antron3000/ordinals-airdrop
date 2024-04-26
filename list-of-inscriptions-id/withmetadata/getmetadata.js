@@ -8,11 +8,19 @@ const fetchMetadata = async (inscriptionID) => {
         const response = await axios.get(url);
         const $ = cheerio.load(response.data);
         let metadata = {};
-        
-        // Target only specific metadata entries: 'name' and 'batch'
+
+        // Find the metadata specifically for 'name' and 'batch'
         const dl = $('dt:contains("name")').next('dd').parent('dl');
-        metadata['name'] = $(dl).find('dt:contains("name")').next('dd').text().trim();
-        metadata['batch'] = $(dl).find('dt:contains("batch")').next('dd').text().trim();
+        const nameText = $(dl).find('dt:contains("name")').next('dd').text().trim();
+        const batchText = $(dl).find('dt:contains("batch")').next('dd').text().trim();
+
+        // Only include 'name' and 'batch' if they are not empty
+        if (nameText) {
+            metadata['name'] = nameText;
+        }
+        if (batchText) {
+            metadata['batch'] = batchText;
+        }
 
         return metadata;
     } catch (error) {
@@ -27,7 +35,7 @@ const processFiles = async (fileNames) => {
         const enrichedData = [];
         for (const item of data) {
             const metadata = await fetchMetadata(item.id);
-            if (metadata.name || metadata.batch) {  // Only add entries with non-empty metadata
+            if (metadata.name || metadata.batch) {  // Include only if metadata is not empty
                 enrichedData.push({
                     id: item.id,
                     metadata
