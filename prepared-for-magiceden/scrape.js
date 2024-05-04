@@ -37,7 +37,7 @@ async function scrapeData() {
   
 
   // Write data to a JSON file
-  fs.writeFileSync("scraped_data1.json", JSON.stringify(links, null, 2));
+  fs.writeFileSync("scraped_data.json", JSON.stringify(links, null, 2));
   console.log("Data has been scraped and saved to scraped_data.json");
 
   await browser.close();

@@ -123,7 +123,7 @@ const urls = JSON.parse(fs.readFileSync("error_ids.json"));
   );
 
   // Write error IDs to a separate JSON file
-  fs.writeFileSync("error_ids1.json", JSON.stringify(errorIds, null, 2));
+  fs.writeFileSync("extracted_data_from_errorsIds1.json", JSON.stringify(errorIds, null, 2));
 
   browser.close();
   console.log(
