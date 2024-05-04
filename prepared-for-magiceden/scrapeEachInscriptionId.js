@@ -4,8 +4,7 @@ const puppeteer = require("puppeteer");
 async function scrapePageContent(browser, url) {
   try {
     const page = await browser.newPage();
-    await page.goto(url);
-
+    await page.goto(url, {timeout:60000});
     // Wait for the content to load
     await page.waitForSelector("main");
 
@@ -48,7 +47,7 @@ function extractValues(content) {
 }
 
 // Function to scrape with retry
-async function scrapeWithRetry(browser, url, retries = 3) {
+async function scrapeWithRetry(browser, url, retries = 6) {
   let attempt = 0;
   while (attempt < retries) {
     try {

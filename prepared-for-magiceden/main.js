@@ -19,14 +19,17 @@ function checkFileExists(filePath) {
 
 // Call the first script
 async function runFirstScript() {
-  try {
-    console.log("Running the first script...");
-    await scrapeData();
-    console.log("First script completed successfully.");
-  } catch (error) {
-    console.error("Error running the first script:", error);
+    try {
+      console.log("Running the first script...");
+      await scrapeData();
+      console.log("First script completed successfully.");
+      // Add a small delay after the first script completes
+      console.log("Waiting for file writing to finish...");
+      await delay(2000); // Adjust the delay as needed
+    } catch (error) {
+      console.error("Error running the first script:", error);
+    }
   }
-}
 
 // Call the second script
 async function runSecondScript() {

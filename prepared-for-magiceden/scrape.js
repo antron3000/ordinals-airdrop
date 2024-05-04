@@ -5,15 +5,15 @@ const fs = require("fs");
 async function scrapeData() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  const totalPages = 2;
+  const totalPages = 199;
   const baseUrl = "https://ordinals.com/children/9d71fc47daede70dde1dd4af7cdfffac18627f797d7542880ec6db2107ad62b6i0/";
 
   const links = [];
 
-  for (let i = 0; i <= totalPages; i++) {
+  for (let i = 0; i < totalPages; i++) {
     const pageUrl = `${baseUrl}${i}`;
-    await page.goto(pageUrl);
-
+    await page.goto(pageUrl, {timeout:60000});
+  
     // Extract links from the current page
     const pageLinks = await page.evaluate(() => {
       const links = [];
@@ -28,23 +28,22 @@ async function scrapeData() {
       });
       return links;
     });
-
+    console.log(`Page ${i + 1} scraped.`); // Adjusted index to start from 0
     // Add pageLinks to the links array
     links.push(...pageLinks);
+  
 
-    console.log(`Page ${i} scraped.`);
   }
+  
 
   // Write data to a JSON file
-  fs.writeFileSync("scraped_data.json", JSON.stringify(links, null, 2));
+  fs.writeFileSync("scraped_data1.json", JSON.stringify(links, null, 2));
   console.log("Data has been scraped and saved to scraped_data.json");
 
   await browser.close();
 }
 
 // Call the function to scrape data
-scrapeData();
-
 module.exports = {
   scrapeData: scrapeData
 };
